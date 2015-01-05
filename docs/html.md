@@ -101,11 +101,15 @@ Cats rule. Copyright info 2015. | Dogs drool.
 * *support:* Chrome, Firefox, Opera, Safari
 * *example:*
 ```
-<form>
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" name="b" value="50" /> +
+  <input type="number" name="a" value="10" /> =
   <output name="result"></output>
 </form>  
 ```
-<form>
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" name="b" value="50" /> +
+  <input type="number" name="a" value="10" /> =
   <output name="result"></output>
 </form>
 
