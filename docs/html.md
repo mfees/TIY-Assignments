@@ -83,7 +83,7 @@ Cats rule. Copyright info 2015. | Dogs drool.
 
 * *type:* block-level
 * *content:* Flow content
-* *support:* all
+* *support:* all (but firefox (1.7 or earlier)
 * *example:*
 ```
 <blockquote cite="http://developer.mozilla.org">
@@ -93,4 +93,19 @@ Cats rule. Copyright info 2015. | Dogs drool.
 <blockquote cite="http://developer.mozilla.org">
   <p>This is a quotation taken from the Mozilla Developer Center.</p>
 </blockquote>
+
+### `<output>` -- Output
+
+* *type:* block-level
+* *content:* Phrasing content
+* *support:* Chrome, Firefox, Opera, Safari
+* *example:*
+```
+<form>
+  <output name="result"></output>
+</form>  
+```
+<form>
+  <output name="result"></output>
+</form>
 
