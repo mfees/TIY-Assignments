@@ -31,3 +31,20 @@
   <li>Cats</li>
   <li>Kittens</li>
 </ol>
+
+### 3. `<section>` -- Section
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all
+* *example:*
+```
+<section>
+  <h1>CATS</h1>
+  <p>Cats are so cool.<p>
+</section>
+```
+<section>
+  <h1>CATS</h1>
+  <p>Cats are so cool.<p>
+</section>
