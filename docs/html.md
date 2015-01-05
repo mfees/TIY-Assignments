@@ -79,3 +79,18 @@ Cats rule. Copyright info 2015. | Dogs drool.
   <p>I have a cat named cookie.</p>
 </div>
 
+### 6. `<blockquote>` -- Blockquote
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all
+* *example:*
+```
+<blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from the Mozilla Developer Center.</p>
+</blockquote>  
+```
+<blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from the Mozilla Developer Center.</p>
+</blockquote>
+
