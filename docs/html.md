@@ -94,7 +94,7 @@ Cats rule. Copyright info 2015. | Dogs drool.
   <p>This is a quotation taken from the Mozilla Developer Center.</p>
 </blockquote>
 
-### `<output>` -- Output
+### 7. `<output>` -- Output
 
 * *type:* block-level
 * *content:* Phrasing content
@@ -113,3 +113,19 @@ Cats rule. Copyright info 2015. | Dogs drool.
   <output name="result"></output>
 </form>
 
+### 8. `<article>` -- Article
+
+* *type:* block-level
+* *content:* Flow Content
+* *support:* all
+* *example:*
+```
+<article>
+  <h3>MEOW MEOW MEOW</h3>
+  <p>I'm actually not that obsessed with cats...</p>
+</article>
+```
+<article>
+  <h3>MEOW MEOW MEOW</h3>
+  <p>I'm actually not that obsessed with cats...</p>
+</article>
