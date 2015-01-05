@@ -129,3 +129,18 @@ Cats rule. Copyright info 2015. | Dogs drool.
   <h3>MEOW MEOW MEOW</h3>
   <p>I'm actually not that obsessed with cats...</p>
 </article>
+
+### 9. `<header>` -- Header
+
+* *type:* block-level
+* *content:* Flow content, but with no <header> or <footer> descendant
+* *support:* all
+* *example:*
+```
+<header>
+  This is a logo
+</header>
+```
+<header>
+  This is a logo
+</header>
