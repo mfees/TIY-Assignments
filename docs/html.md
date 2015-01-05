@@ -14,3 +14,20 @@
   <li>Thing One</li>
   <li>Thing Two</li>
 </ul>
+
+### 2. `<ol>` -- Ordered List
+
+* *type:* block-level
+* *content:* Zero or more <li> elements
+* *support:* Chrome, Firefox, Safari
+* *example:*
+```
+<ol>
+  <li>Cats</li>
+  <li>Kittens</li>
+</ol>
+```
+<ol>
+  <li>Cats</li>
+  <li>Kittens</li>
+</ol>
