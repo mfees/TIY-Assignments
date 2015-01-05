@@ -63,3 +63,19 @@ Cats rule. Copyright info 2015. | Dogs drool.
 <footer>
 Cats rule. Copyright info 2015. | Dogs drool.
 </footer>
+
+### 5. `<div>` -- Div
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all
+* *example:*
+```
+<div>
+  <p>I have a cat named cookie.</p>
+</div>
+```
+<div>
+  <p>I have a cat named cookie.</p>
+</div>
+
