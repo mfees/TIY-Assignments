@@ -2,7 +2,7 @@
 
 * *type:* block-level
 * *content:* zero or more <li> elements, eventually mixed with <ol> and <ul> elements.
-* *support:* 
+* *support:* all
 * *example:*
 ```
 <ul>
