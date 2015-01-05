@@ -144,3 +144,42 @@ Cats rule. Copyright info 2015. | Dogs drool.
 <header>
   This is a logo
 </header>
+
+### 10. `<table>` -- Table
+
+* *type:* block-level
+* *content:* In this order:
+an optional <caption> element,
+zero or more <colgroup> elements,
+an optional <thead> element,
+one of the two alternatives:
+one <tfoot> element, followed by:
+zero or more <tbody> elements,
+or one or more <tr> elements,
+a second alternative followed by an optional <tfoot> element:
+either zero or more <tbody> elements,
+or one or more <tr> elements
+* *support:* all
+* *example:*
+```
+<table>
+  <tr>
+    <td>Cats</td>
+    <td>Kittens</td>
+  </tr>
+  <tr>
+    <td>Dogs</td>
+    <td>Puppies</td>
+  </tr>  
+</table>
+```
+<table>
+  <tr>
+    <td>Cats</td>
+    <td>Kittens</td>
+  </tr>
+  <tr>
+    <td>Dogs</td>
+    <td>Puppies</td>
+  </tr>  
+</table>
