@@ -48,3 +48,18 @@
   <h1>CATS</h1>
   <p>Cats are so cool.<p>
 </section>
+
+### 4. `<footer>` -- Footer
+
+* *type:* block-level
+* *content:* Flow content, but with no <footer> or <header> descendants.
+* *support:* all
+* *example:*
+```
+<footer>
+Cats rule. Copyright info 2015. | Dogs drool.
+</footer>
+```
+<footer>
+Cats rule. Copyright info 2015. | Dogs drool.
+</footer>
