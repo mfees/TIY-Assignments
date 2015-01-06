@@ -183,3 +183,59 @@ or one or more <tr> elements
     <td>Puppies</td>
   </tr>  
 </table>
+
+
+### 11. `span` -- Span 
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all
+* *example:*
+```
+<span>This is for the span element</span>
+```
+<span>This is for the span element</span>
+
+### 12. `em` -- Em 
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all
+* *example:*
+```
+<p>How about dem <em>italics?</em></p>
+```
+<p>How about dem <em>italics?</em></p>
+
+### 13. `button` -- Button 
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all
+* *example:*
+```
+<p>This is a</p><button name= "button"button</button>
+```
+<p>This is a</p><button name= "button">button</button>
+
+### 14. `strong` -- Strong 
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* 
+* *example:*
+```
+<p>My love for cats is <strong>STRONG</strong></p>
+```
+<p>My love for cats is <strong>STRONG.</strong></p>
+
+### 15. `abbr` -- Abbr 
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all
+* *example:*
+```
+<p>It's a party in the <abbr title= "United States of America">USA</abbr></p>
+```
+<p>It's a party in the <abbr title= "United States of America">USA</abbr></p>
