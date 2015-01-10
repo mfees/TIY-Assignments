@@ -60,6 +60,111 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+p {
+	color: #5e686f;
+	font-family: 'Open-sans' sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+h2{
+	color: #083452;
+	font-family: 'Oswald' sans-serif;
+	font-size: 50px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+h3{
+	color: #106db3;
+	font-family: 'Open-sans' sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.banner {
+	background: url("http://lorempixel.com/output/cats-q-c-1300-520-4.jpg") no-repeat;
+	background-size: cover;
+	height: 300px;
+	padding-bottom: 20%;
+	max-height: 522px;
+	width: 100%;
+	display: table;
+	margin: 0;
+}
+
+.headline {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 20%;
+	font-family: 'Adobe-Myriad-Pro' sans-serif;
+	font-weight: normal;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 25px;
+}
+
+.tagline {
+	color: #083451;
+	font-size: 16px;
+}
+
+.main-nav {
+	display: inline;
+
+}
+
+.content-wrapper {
+	width: 1000px;
+}
+
+.content: {
+	width: 75%;
+	float: left;
+	box-sizing: border-box;
+
+}
+
+.sidebar {
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.call-out {
+	border-left: 2px solid #d3d3d3;
+	padding-left: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.circle-pic {
+	background-image: url(http://lorempixel.com/output/cats-q-c-100-100-1.jpg) no-repeat;
+	border-radius: 100%;
+}
+
+.popular-title {
+	text-align: center;
+}
+
+footer {
+	background-color: #083452;
+}
+
+.nav a:last-child {
+	display:inline;
+	color: #a3b3bf;
+	font-family: 'Open-sans' sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
 
 
 
