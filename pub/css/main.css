@@ -28,6 +28,7 @@ hr {
     border-top: 1px solid #e1e7ea;
     margin: 1em 0;
     padding: 0;
+    width: 100%;
 }
 
 audio,
@@ -163,19 +164,38 @@ h4{
 	vertical-align: baseline;
 }
 
+.post-container {
+	margin-top: 5px;
+}
+
+.post-name {
+	display: inline;
+	color: #106db3;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
 .post-time {
 	display: inline;
+	color: #a3b3bf;
+	font-size: 14px;
+}
+
+.post-time a {
+	color: #a3b3bf;
+	font-size: 14px;
 }
 
 .content {
-	width: 60%;
+	width: 70%;
 	float: left;
 	box-sizing: border-box;
 
 }
 
 .sidebar {
-	width: 40%;
+	width: 30%;
 	float: left;
 	box-sizing: border-box;
 	padding-left: 80px; 
@@ -185,8 +205,8 @@ h4{
 .call-out {
 	border-left: 2px solid #d3d3d3;
 	padding-left: 14px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 14px;
+	padding-bottom: 14px;
 
 }
 
@@ -201,7 +221,7 @@ h4{
 	padding-right: 10px;
 }
 
-.button {
+.button a {
 	background-color: #a3b3bf;
 	color: #fff;
 	font-family: 'Open-Sans' sans-serif;
@@ -209,9 +229,10 @@ h4{
 	font-size: 14px;
 	padding: 10px;
 	display: inline;
+	text-decoration: none;
 }
 
-.blue-button {
+.button-group .button:last-child a{
 	background-color: #106db3;
 	color: #fff;
 	font-family: 'Open-Sans' sans-serif;
@@ -226,6 +247,18 @@ h4{
 	color: #fff;
 }
 
+.fa {
+	background-color: #5e686f;
+	padding: 10px;
+	color: #fff;
+}
+
+.button-group .button:last-child i{
+	background-color: #083452;
+	padding: 10px;
+	color: #fff;
+}
+
 .circle-pic {
 	background-image: url(http://lorempixel.com/output/cats-q-c-100-100-1.jpg) no-repeat;
 	border-radius: 100px;
@@ -236,11 +269,17 @@ h4{
 
 .social-group {
 	display: inline-block;
-	margin: 0 auto;
+	margin-top: 17px;
+}
+
+.social-info {
+	text-align: center;
+	margin-top: 83px;
 }
 
 .social-link {
 	display: inline;
+	line-height: 10px;
 }
 
 .social-link a {
@@ -250,8 +289,45 @@ h4{
 	text-decoration: none;
 }
 
+.sidebar-pic {
+	margin-top: 56px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+.side-kitty {
+	width: 100%;
+}
+
+.ad-link a {
+	color: #a3b3bf;
+	font-family: 'Open-Sans' sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	float: right;
+}
+
+.sidebar-headline {
+	color: #106db3;
+	font-family: 'Oswald' sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 74px;
+	margin-bottom: 0px;
+}
+
 .sidebar-text {
 	width: 100%;
+}
+
+.sidebar-paragraph {
+	color: #a3b3bf;
+	font-size: 14px;
+	line-height: 28px;
+	margin-top: 0px;
 }
 
 .image-section {
@@ -277,6 +353,7 @@ h4{
 
 .image-container {
 	width: 100%;
+	margin-top: 50px;
 }
 
 .image-container img {
@@ -305,7 +382,8 @@ h4{
   	z-index: 2;
 }
 
-.tint:hover:before { background: none; }
+.tint:hover:before { background: none;
+}
 
 footer {
 	background-color: #083452;
