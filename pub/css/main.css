@@ -100,8 +100,12 @@ h4{
 
 .logo-container {
 	float: left;
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-left: 55px;
+}
+
+.logo {
+	width: 20%;
 }
 
 .banner {
@@ -167,6 +171,7 @@ h4{
 	text-transform: uppercase;
 	color: #fff; 
 	margin-top: 15px;
+	padding-left: 7px;
 	display: inline;
 }
 
