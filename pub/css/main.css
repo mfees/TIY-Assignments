@@ -65,16 +65,17 @@ p {
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 28px;
+	margin-top: 37px;
 }
 
 h2{
 	color: #083452;
 	font-family: 'Oswald' sans-serif;
-	font-size: 50px;
+	font-size: 70px;
 	font-weight: normal;
-	line-height: 60px;
+	line-height: 78px;
 	text-transform: uppercase;
-	margin-top: 70px;
+	margin-top: 67px;
 	margin-bottom: 0;
 }
 
@@ -85,14 +86,26 @@ h3{
 	font-size: 30px;
 	line-height: 40px;
 	text-transform: uppercase;
+	margin-top: 4px;
 }
 
 h4{
 
 }
 
+.header {
+	max-height: 578px;
+	overflow: hidden;
+}
+
+.logo-container {
+	float: left;
+	margin-top: 15px;
+	margin-left: 55px;
+}
+
 .banner {
-	background: url("http://lorempixel.com/output/cats-q-c-1300-520-6.jpg") no-repeat;
+	background: url("http://lorempixel.com/output/cats-q-c-1300-440-7.jpg") no-repeat;
 	background-size: cover;
 	height: 300px;
 	padding-bottom: 20%;
@@ -109,6 +122,12 @@ h4{
 	box-sizing: border-box;
 }
 
+.container {
+	width: 100%;
+	padding: 0 100px;
+	box-sizing: border-box;
+}
+
 .headline {
 	display: table-cell;
 	vertical-align: middle;
@@ -116,15 +135,16 @@ h4{
 	padding-top: 20%;
 	font-family: 'Myriad Pro' sans-serif;
 	font-weight: normal;
-	font-size: 60px;
+	font-size: 120px;
 	text-transform: uppercase;
 	color: #fff;
-	line-height: 25px;
+	text-indent: 15px;
+	line-height: 32px;
 }
 
 .tagline {
-	color: #083451;
-	font-size: 16px;
+	color: #fff;
+	font-size: 18px;
 }
 
 .main-nav {
@@ -132,9 +152,11 @@ h4{
 	font-family: 'Oswald' sans-serif;
 	font-size: 20px;
 	font-weight: normal;
-	color: #083451;
+	color: #fff;
 	text-transform: uppercase;
 	float: right;
+	margin-top: 18px;
+	margin-right: 75px;
 
 }
 
@@ -143,12 +165,17 @@ h4{
 	font-size: 16px;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #083451; 
-	float: left;
+	color: #fff; 
+	margin-top: 15px;
+	display: inline;
+}
+
+.anchor-space {
+	margin-right: 9px;
 }
 
 .content-wrapper {
-	width: 1100px;
+	width: 1080px;
 	margin: 0 auto;
 }
 
@@ -188,25 +215,26 @@ h4{
 }
 
 .content {
-	width: 70%;
+	width: 63.1%;
 	float: left;
 	box-sizing: border-box;
 
 }
 
 .sidebar {
-	width: 30%;
+	width: 36.3%;
 	float: left;
 	box-sizing: border-box;
-	padding-left: 80px; 
+	padding-left: 88px; 
 	margin: 0;
 }
 
 .call-out {
 	border-left: 2px solid #d3d3d3;
-	padding-left: 14px;
+	padding-left: 18px;
 	padding-top: 14px;
-	padding-bottom: 14px;
+	padding-bottom: 5px;
+	margin-top: 25px;
 
 }
 
@@ -218,7 +246,7 @@ h4{
 
 .button-group li {
 	display: inline-block;
-	padding-right: 10px;
+	padding-right: 3px;
 }
 
 .button a {
@@ -227,7 +255,7 @@ h4{
 	font-family: 'Open-Sans' sans-serif;
 	font-weight: lighter;
 	font-size: 14px;
-	padding: 10px;
+	padding: 9px 19px;
 	display: inline;
 	text-decoration: none;
 }
@@ -238,7 +266,7 @@ h4{
 	font-family: 'Open-Sans' sans-serif;
 	font-weight: lighter;
 	font-size: 14px;
-	padding: 10px;
+	padding: 9px 19px;
 	display: inline;
 }
 
@@ -247,15 +275,20 @@ h4{
 	color: #fff;
 }
 
-.fa {
-	background-color: #5e686f;
-	padding: 10px;
+.main-nav .fa {
+	padding: 9px;
 	color: #fff;
+}
+
+.button-group .fa {
+	background-color: #5e686f;
+	color: #fff;
+	padding: 9px 11px;
 }
 
 .button-group .button:last-child i{
 	background-color: #083452;
-	padding: 10px;
+	padding: 9px;
 	color: #fff;
 }
 
@@ -263,18 +296,29 @@ h4{
 	background-image: url(http://lorempixel.com/output/cats-q-c-100-100-1.jpg) no-repeat;
 	border-radius: 100px;
 	overflow: hidden;
-	width: 100px;
+	width: 90px;
+	height: 90px;
 	margin: 0 auto;
 }
 
 .social-group {
 	display: inline-block;
-	margin-top: 17px;
+	margin-top: 12px;
+}
+
+.social-group .post-name {
+	display: inline;
+	color: #106db3;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 .social-info {
 	text-align: center;
-	margin-top: 83px;
+	margin-top: 93px;
 }
 
 .social-link {
@@ -290,7 +334,7 @@ h4{
 }
 
 .sidebar-pic {
-	margin-top: 56px;
+	margin-top: 53px;
 	margin-left: 0;
 	margin-right: 0;
 	width: 100%;
@@ -312,10 +356,10 @@ h4{
 .sidebar-headline {
 	color: #106db3;
 	font-family: 'Oswald' sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: normal;
 	text-transform: uppercase;
-	margin-top: 74px;
+	margin-top: 77px;
 	margin-bottom: 0px;
 }
 
@@ -334,21 +378,22 @@ h4{
 	clear: both;
 }
 
-.popular-title {
+.popular-title h2 {
 	text-align: center;
+	margin-top: 42px;
 }
 
 .image-title {
 	font-family: 'Oswald' sans-serif;
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: bold;
 	text-transform: uppercase;
 	position: absolute;
 	z-index: 3;
 	bottom: 15px;
 	left: 20px;
-	color: #fff;
 	margin: 0;
+	color: inherit;
 }
 
 .image-container {
@@ -367,6 +412,11 @@ h4{
 	width: 25%;
 	cursor: pointer;
 	margin: 0;
+	color: #083452;
+}
+
+.tint:hover {
+	color: #fff;
 }
 
 .tint:before {
@@ -382,20 +432,44 @@ h4{
   	z-index: 2;
 }
 
-.tint:hover:before { background: none;
+.tint:hover:before {
+	background: none;
 }
 
 footer {
 	background-color: #083452;
+	width:100%;
+	height: 90px;
+	clear: both;
+	overflow: hidden;
 }
 
-.footer-nav a:last-child {
+.footer-left {
+	margin-top: 5px;
+	margin-left: 81px;
+	float: left;
+}
+
+.footer-left p {
+	margin-top: 29px;
+	margin-left: 11px;
+	display: inline-block;
+}
+
+.footer-nav {
+	float: right;
+	margin-top: 36px;
+	margin-right: 82px;
+}
+
+.footer-nav a {
 	display:inline;
 	color: #a3b3bf;
 	font-family: 'Open-sans' sans-serif;
-	font-weight: normal;
-	font-size: 16px;
+	font-weight: lighter;
+	font-size: 14px;
 	line-height: 28px;
+	text-decoration: none;
 }
 
 /* ==========================================================================
