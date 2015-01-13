@@ -60,9 +60,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+p {
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 32px;
+    color: #fff;
+}
 
+h2 {
+    font-family: 'Lato', sans-serif; 
+    color: #6cbfee;
 
+}
 
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #fff; 
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1224px;
+    min-width: 756px;
+    margin: 0 auto; 
+}
+
+.main-text {
+    max-width: 1440px;
+    float: right;
+    background-color: #6cbfee;
+}
+
+.circular-element {
+
+}
+
+.time-area {
+
+}
+
+.text-area {
+
+}
+
+.main-text {
+
+}
+
+.fa {
+
+}
 
 
 
