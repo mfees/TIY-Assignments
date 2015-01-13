@@ -87,9 +87,21 @@ h3 {
 
 .container {
     background-color: #fff;
-    max-width: 1224px;
+    max-width: 1080px;
     min-width: 756px;
     margin: 0 auto; 
+}
+
+.main-text::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #6cbfee;
+    position: absolute;
+    left: -10px;
+    top: 10px;
 }
 
 .main-text {
@@ -100,6 +112,11 @@ h3 {
     border-radius: 5px;
     box-sizing: border-box;
     margin-bottom: 15px;
+    position: relative;
+}
+
+.main-text:nth-child(odd) {
+    background-color: #3594cb;
 }
 
 .circular-element {
@@ -111,17 +128,19 @@ h3 {
     float: left;
     box-sizing: border-box;
     border-right: 8px solid #afdcf8;
+    padding-right: 50px;
+}
+
+.timestamp p {
+    color: #bdd0db;
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .text-area {
     width: 75%;
     float: left;
     border-radius: 5px;
-
-}
-
-.main-text {
-
 
 }
 
