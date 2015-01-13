@@ -104,6 +104,10 @@ h3 {
     top: 10px;
 }
 
+.main-text:nth-child(odd)::before {
+    border-right: 10px solid #3594cb;
+}
+
 .main-text {
     max-width: 1440px;
     float: right;
