@@ -173,6 +173,12 @@ h3 {
     position: absolute;
     left: -80px;
     top: -13px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.fa {
+    color: #fff;
 }
 
 /* ==========================================================================
