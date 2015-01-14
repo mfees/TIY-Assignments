@@ -185,8 +185,13 @@ h3 {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
+@media only screen and (max-width: 1024px) {
+    .timeline big {
+        font-size: 120%;   
+    }
+    .left-side {
+        left: -185px;
+    }
 }
 
 @media print,
