@@ -192,6 +192,10 @@ h3 {
     .left-side {
         left: -185px;
     }
+    
+    .left-side p {
+        line-height: 20px;
+    }
 }
 
 @media print,
