@@ -62,18 +62,31 @@ textarea {
    ========================================================================== */
 
 .container {
+    width: 90%;
+    max-width: 69em;
+    margin: 0 auto;
+    padding: 0 1.875em 3.125em 1.875em;
 }
 
-.container .timeline {
+.timeline {
+    background-color: #6cbfee;
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    border-radius: 0.5em;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
-.container .right-content {
+.right-content {
 }
 
-.container .left-content {
+.left-content {
+    position: absolute;
 }
 
-.container .left-content p {
+.left-content p {
 }
 
 .container small {
@@ -82,16 +95,23 @@ textarea {
 .container big {
 }
 
-.container .circle-icon {
+.circle-icon {
 }
 
-.container .content-text {
+.content-text {
 }
 
-.container .content-text p {
+.content-text p {
+    color: #fff;
+    font-size: 1em;
 }
 
 .container h3 {
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    padding-bottom: .5em;
 }
 
 /* ==========================================================================
