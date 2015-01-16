@@ -97,8 +97,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-header {
+.banner {
+    background-image: url(http://lorempixel.com/output/cats-q-c-1300-900-7.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
 header .main-nav {
 }
 header .main-nav a {
