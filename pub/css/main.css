@@ -97,6 +97,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+p {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 1.7ex;
+    line-height: 3.5ex;
+    color: #555;
+}
+
+h1 {
+    font-family: 'Myriad Pro' sans-serif;
+    font-size: 6ex;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Oswald' sans-serif;
+    font-size: 4ex;
+    text-transform: uppercase;
+    color: navy;
+}
+
+h3 {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 2ex;
+    text-transform: uppercase;
+    border-left: 0.2ex solid #cecece;
+}
+
+h4 {
+    font-family: 'Oswald' sans-serif;
+    font-size: 3ex;
+    text-transform: uppercase;
+    color: #000; /*Need to change to white*/
+}
+
 .banner {
     background-image: url(http://lorempixel.com/output/cats-q-c-1300-900-7.jpg);
     background-position: center;
@@ -106,8 +141,14 @@ textarea {
 header .main-nav {
 }
 header .main-nav a {
+    font-family: 'Oswald' sans-serif;
+    font-size: 2ex;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 header icon {
+    color: #fff;
 }
 header img {
 }
@@ -326,9 +367,12 @@ footer p {
         text-shadow: none !important;
     }
 
-    a,
+    a {
+        text-decoration: none !important;
+    }
+    
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
