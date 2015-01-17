@@ -111,7 +111,8 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    margin-bottom: 1ex;
+    margin: 0;
+    line-height: none;
 }
 
 h2 {
@@ -139,6 +140,7 @@ h4 {
     background-image: url(http://lorempixel.com/output/cats-q-c-1300-900-7.jpg);
     background-position: center;
     background-size: cover;
+    padding: 1em 0 0.1em 0;
 }
 
 header .main-nav {
@@ -147,10 +149,16 @@ header .main-nav {
 header .main-nav a {
     font-family: 'Oswald' sans-serif;
     font-size: 2ex;
+    font-weight: 300;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
 }
+
+header .main-nav a:first-child {
+    padding-right: 1em;
+}
+
 header icon {
     color: #fff;
 }
