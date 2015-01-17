@@ -204,8 +204,14 @@ header p {
 .content h3 {
 }
 .button-group {
+    margin-bottom: 11em;
 }
+
 .button-group icon {
+    color: #fff;
+    background-color: #62686e;
+    padding: 0.8ex;
+    margin-right: .5ex;
 }
 aside {
 }
