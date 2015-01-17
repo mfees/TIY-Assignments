@@ -99,7 +99,7 @@ textarea {
 
 p {
     font-family: 'Open Sans' sans-serif;
-    font-size: 1.7ex;
+    font-size: 1.5em;
     line-height: 3.5ex;
     color: #555;
 }
@@ -117,16 +117,19 @@ h1 {
 
 h2 {
     font-family: 'Oswald' sans-serif;
-    font-size: 4ex;
+    font-size: 10ex;
     text-transform: uppercase;
     color: navy;
+    margin-bottom: 0;
 }
 
 h3 {
     font-family: 'Open Sans' sans-serif;
-    font-size: 2ex;
+    font-size: 3.5ex;
+    color: blue;
     text-transform: uppercase;
     border-left: 0.2ex solid #cecece;
+    padding-left: 0.5em;
 }
 
 h4 {
