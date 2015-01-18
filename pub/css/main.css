@@ -228,6 +228,7 @@ aside .aside-image img {
 }
 
 aside p {
+    font-size: 3.5ex;
     text-align: center;
     text-transform: uppercase;
     color: #406eb0;
@@ -236,7 +237,7 @@ aside p {
 
 aside .aside-nav {
     text-align: center;
-    margin-bottom: 6em;
+    margin-bottom: 9em;
 }
 aside a {
     font-size: 3ex;
@@ -293,6 +294,7 @@ footer {
     background-color: #213751;
 }
 footer .nav-footer {
+    text-align: center;
 }
 footer a {
     text-decoration: none;
