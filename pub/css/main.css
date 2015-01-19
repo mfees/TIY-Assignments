@@ -119,7 +119,8 @@ h1 {
 h2 {
     font-family: 'Oswald' sans-serif;
     font-size: 10ex;
-    font-weight: 400;      
+    font-weight: 400; 
+    line-height: 2ex;
     text-transform: uppercase;
     color: #223752;
     margin-bottom: 0;
@@ -292,19 +293,29 @@ hr {
 }
 footer {
     background-color: #213751;
+    padding: 4em;
 }
 footer .nav-footer {
     text-align: center;
 }
 footer a {
+    font-size: 3ex;
     text-decoration: none;
     color: #a7b0bc;
 }
 footer .copyright-content {
 }
 footer img {
+    width: 17%;
+    display: block;
+    margin: 4em auto 0
 }
+
 footer p {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 3ex;
+    color: #a7b0bc;
+    text-align: center;
 }
 
 
