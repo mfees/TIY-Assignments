@@ -197,6 +197,13 @@ header p {
     margin-right: .5ex;
 }
 
+.button-text {
+    display: inline-block;
+    background-color: #555;
+    padding: 1ex;
+    margin-right: 1ex;
+}
+
 aside .aside-image img {
     width: 32%;
     border-radius: 100%;
@@ -229,11 +236,12 @@ aside a {
 }
 
 .ad-text p { 
-    text-align: right;
-    margin-top: .5ex;
 }
 
 .ad-text a { 
+    text-align: right;
+    margin-top: .5ex;
+    font-size: 1em;
     color: #acb7c1;
 }
 
@@ -247,6 +255,7 @@ figure img {
 }
 
 .bottom-content {
+    border-top: .1em solid #ccc;
     clear: both;
 }
 
@@ -408,28 +417,56 @@ footer p {
 }
 
 @media only screen and (min-width: 666px) {    
+    .banner {
+        padding: 1em 8em 0.1em 8em;
+    }
+    
     .main-nav {
         float: right;
+    }
+    
+    .headline {
+        margin: 8em 0;
     }
     
     .logo-container {
         float: left;
     }
     
+    .logo-container img {
+        display: inline;
+        margin: 0 1ex 0 0;
+    }
+    
+    .logo-container p {
+        display: inline;
+        text-transform: uppercase;
+        font-size: 2ex;
+        font-weight: 300;
+    }
+    
     .main-container {
-        width: 80%;
+        clear: both;
+        overflow: hidden;
     }
     
     .content {
-    width: 75%;
-    float: left;
-    box-sizing: border-box;
+        width: 75%;
+        float: left;
+        padding-right: 7em;
+        box-sizing: border-box;
     }
     
     .sidebar {
-    width: 25%;
-    float: left;
-    box-sizing: border-box;
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    .post {
+        width: 25%;
+        float: left;
+        display:inline-block;
     }
     
 }
