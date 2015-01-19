@@ -523,6 +523,34 @@ footer p {
         display:inline-block;
     }
     
+    footer .nav-footer {
+        float: right;
+        display: inline;
+        font-size: 1.3ex;
+    }
+    
+    .copyright-content {
+        float: left;
+        display: inline;
+    }
+    
+    .copyright-content img {
+        display: inline;
+        width: 9%;
+        margin: 0;
+        padding-right: 1ex;
+    }
+    
+    .copyright-content p {
+        font-size: 2ex;
+        display: inline;
+        margin: 0;
+    }
+    
+    .page-footer {
+        clear: both;
+        padding: 4em 4em 5em 4em;
+    }
 }
 
 @media only screen and (min-width: 35em) {
