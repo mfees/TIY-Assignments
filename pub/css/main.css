@@ -113,7 +113,7 @@ h1 {
     text-transform: uppercase;
     color: #fff;
     margin: 0;
-    line-height: none;
+    line-height: 1.8ex;
 }
 
 h2 {
@@ -136,13 +136,6 @@ h3 {
     padding-left: 0.5em;
 }
 
-h4 {
-    font-family: 'Oswald' sans-serif;
-    font-size: 3ex;
-    text-transform: uppercase;
-    color: #000; /*Need to change to white*/
-}
-
 .banner {
     background-image: url(http://lorempixel.com/output/cats-q-c-1300-900-7.jpg);
     background-position: center;
@@ -153,6 +146,7 @@ h4 {
 header .main-nav {
     text-align: center;
 }
+
 header .main-nav a {
     font-family: 'Oswald' sans-serif;
     font-size: 3ex;
@@ -169,13 +163,12 @@ header .main-nav a:first-child {
 header icon {
     color: #fff;
 }
+
 header img {
     display: block;
     margin: 1.5em auto 1.5em auto;
-    
 }
-header a {
-}
+
 header p {
     text-align: center;
     color: #fff;
@@ -187,23 +180,12 @@ header p {
     margin: 0 auto;
 }
 
-.text-container {
-}
-.text-container h2 {
-}
-.text-container time {
-}
 .text-container small {
     font-size: 2.5ex;
     color: #a8b3bc;
     text-decoration: underline;
 }
-.content {
-}
-.content p {
-}
-.content h3 {
-}
+
 .button-group {
     margin-bottom: 11em;
 }
@@ -213,12 +195,6 @@ header p {
     background-color: #62686e;
     padding: 0.8ex;
     margin-right: .5ex;
-}
-aside {
-}
-aside figure {
-}
-aside .aside-image {
 }
 
 aside .aside-image img {
@@ -264,18 +240,14 @@ aside a {
 figure img {
     width: 100%;
 }
-}
-figure figcaption {
-}
-figure p {
-}
-hr {
-}
-.bottom-content {
-}
+
 .bottom-content h2 {
     font-size: 3.5em;
     text-align: center;
+}
+
+.bottom-content {
+    clear: both;
 }
 
 .image-container {
@@ -283,14 +255,20 @@ hr {
     list-style: none;
 }
 
-.bottom-content .post {
+.post {
+    position: relative;
 }
-.bottom-content .image {
+
+.post figcaption {
+    font-family: 'Oswald' sans-serif;
+    font-size: 5.5ex;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: .5em;
+    left: .6em;
 }
-.bottom-content img {
-}
-.bottom-content h4 {
-}
+
 footer {
     background-color: #213751;
     padding: 4em;
@@ -303,8 +281,7 @@ footer a {
     text-decoration: none;
     color: #a7b0bc;
 }
-footer .copyright-content {
-}
+
 footer img {
     width: 17%;
     display: block;
@@ -317,21 +294,6 @@ footer p {
     color: #a7b0bc;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -439,6 +401,38 @@ footer p {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (max-width: 666px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 666px) {    
+    .main-nav {
+        float: right;
+    }
+    
+    .logo-container {
+        float: left;
+    }
+    
+    .main-container {
+        width: 80%;
+    }
+    
+    .content {
+    width: 75%;
+    float: left;
+    box-sizing: border-box;
+    }
+    
+    .sidebar {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    }
+    
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
