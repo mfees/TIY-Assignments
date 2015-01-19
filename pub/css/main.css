@@ -444,13 +444,13 @@ footer p {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 678px) {
     .hidden-mobile {
         display: none;
     }
 }
 
-@media only screen and (min-width: 666px) {    
+@media only screen and (min-width: 678px) {    
     p {
         font-family: 'Open Sans' sans-serif;
         font-size: 1.1em;
@@ -596,6 +596,12 @@ footer p {
     .page-footer {
         clear: both;
         padding: 4em 4em 5em 4em;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .banner{
+        padding: 1em 2em 0.1em 2em;
     }
 }
 
