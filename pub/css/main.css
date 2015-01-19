@@ -196,7 +196,7 @@ header p {
 }
 
 .main-container {
-    max-width: 80%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -218,8 +218,11 @@ header p {
 }
 
 .button-text {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 1.8ex;
+    color: #fff;
     display: inline-block;
-    background-color: #555;
+    background-color: #a3b3bf;
     padding: 1ex;
     margin-right: 1ex;
 }
@@ -272,20 +275,41 @@ figure img {
 .image-container {
     padding: 0;
     list-style: none;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 0;
 }
 
 .post {
     position: relative;
 }
 
-.post figcaption {
+.post .image-title {
     font-family: 'Oswald' sans-serif;
     font-size: 5.5ex;
     text-transform: uppercase;
-    color: #fff;
+    color: #223752;
     position: absolute;
     bottom: .5em;
     left: .6em;
+    z-index: 3;
+}
+
+.image:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(16,109,179, 0.5);
+    transition: all .3s linear;
+    z-index: 2;
+}
+
+.image:hover {
+    color: #fff;
 }
 
 footer {
@@ -427,6 +451,14 @@ footer p {
 }
 
 @media only screen and (min-width: 666px) {    
+    p {
+        font-family: 'Open Sans' sans-serif;
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 3.5ex;
+        color: #62676e;
+    }
+    
     .banner {
         padding: 1em 8em 0.1em 8em;
     }
@@ -483,6 +515,10 @@ footer p {
         margin-bottom: 5em;
     }
     
+    .button-group .fa {
+        
+    }
+    
     .sidebar {
         width: 25%;
         float: left;
@@ -521,6 +557,16 @@ footer p {
         width: 25%;
         float: left;
         display:inline-block;
+    }
+    
+    .bottom-content h2 {
+        font-family: 'Oswald' sans-serif;
+        font-size: 10ex;
+        font-weight: 400;
+        line-height: 2ex;
+        text-transform: uppercase;
+        color: #223752;
+        margin-bottom: 0;
     }
     
     footer .nav-footer {
