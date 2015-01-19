@@ -148,11 +148,12 @@ h4 {
 }
 
 h5 {
-   color: #4371b1;
+   color: #106db3;
     font-family: 'Oswald' sans-serif;
     font-size: 2ex;
     font-weight: 400;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .banner {
@@ -232,17 +233,17 @@ aside .aside-image img {
 
 aside p {
     font-size: 3.5ex;
-    text-align: center;
-    text-transform: uppercase;
-    color: #406eb0;
-    margin: 1.5ex 0 0 0;
+    text-align: left;
+    color: #a3b3bf;
+    margin-top: 0.5ex;
 }
 
-aside .aside-nav {
+.aside-nav {
     text-align: center;
-    margin-bottom: 9em;
 }
-aside a {
+
+aside .aside-nav a {
+    margin-bottom: 9em;
     font-size: 3ex;
     color: #a6b2be;
     display: inline;
@@ -252,16 +253,6 @@ aside a {
 
 .ad-area img {
     width: 100%;
-}
-
-.ad-text p { 
-}
-
-.ad-text a { 
-    text-align: right;
-    margin-top: .5ex;
-    font-size: 1em;
-    color: #acb7c1;
 }
 
 figure img {
@@ -488,6 +479,10 @@ footer p {
         box-sizing: border-box;
     }
     
+    .button-group {
+        margin-bottom: 5em;
+    }
+    
     .sidebar {
         width: 25%;
         float: left;
@@ -500,15 +495,26 @@ footer p {
     }
     
     .sidebar p {
-        font-size: 2ex;
+        font-size: 1.8ex;
+        line-height: 3.4ex;
     }
     
     nav.aside-nav {
         margin-bottom: 3em;
     }
     
-    .aside-nav a {
+    nav.aside-nav a {
         font-size: 2ex;
+    }
+    
+    .ad-text {
+        text-align: right;
+        margin-top: 1ex;
+        font-size: .9em;
+    }
+    
+    .ad-text a { 
+        color: #acb7c1;
     }
     
     .post {
