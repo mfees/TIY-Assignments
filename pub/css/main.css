@@ -61,7 +61,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.main-container {
+    max-width: 90%;
+    min-width: 40%;
+    margin: 0 auto;
+}
 
+.box {
+    display: inline-block;
+    border: 1px solid blue;
+    width: 10%;
+    padding-bottom: 10%;
+    background-color: #000;
+    float: left;
+}
 
 
 
