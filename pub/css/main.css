@@ -462,7 +462,7 @@ footer p {
     }
     
     .banner {
-        padding: 1em 11.1em 4.6em 8.6em;
+        padding: 1em 10em 4.6em 8.6em;
     }
     
     .main-nav {
@@ -515,6 +515,22 @@ footer p {
         box-sizing: border-box;
     }
     
+    .content .aside-image {
+        display: inline;
+    }
+    
+    .content .aside-image img {
+        width: 4%;
+        border-radius: 100%;
+    }
+    
+    .content .aside-image figcaption {
+        display: inline;
+        color: #4371b1;
+        font-size: 1.8ex;
+        padding-right: 5ex;
+    }
+    
     .text-container small {
         font-size: 1.8ex;
         color: #a8b3bc;
@@ -532,8 +548,14 @@ footer p {
         margin-bottom: 2.7em;
     }
     
+    .button-group a {
+        text-decoration: none;
+        color: #fff;
+        padding-left: 1ex;
+    }
+    
     .button-group .fa {
-        
+        background-color: #5e686f;
     }
     
     .sidebar {
@@ -617,13 +639,39 @@ footer p {
 }
 
 @media only screen and (max-width: 870px) {
+    h2 {
+        font-size: 11ex;
+        line-height: 1.98ex;
+        margin-top: .78em;
+    }
+    
+    h3 {
+        font-size: 4.5ex;
+    }
+    
     .banner {
-        padding: 1em 2em 0.1em 2em;
+        padding: 1em 2em .1em 2em;
+    }
+    
+    .main-container {
+        max-width: 87%;
+    }
+    
+    .headline {
+        margin-top: 3.4em;
     }
     
     .content {
         width: 100%;
         padding: 0;
+    }
+    
+    .content .aside-image {
+        display: none;
+    }
+    
+    .button-group {
+        margin-bottom: 6em;
     }
     
     .sidebar {
