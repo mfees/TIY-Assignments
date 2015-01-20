@@ -61,21 +61,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 p {
-    position: absolute;
     color: #fff;
+    position: absolute;
+    top: 7em;
+    right: 8em;
+    margin: 0;
+}
+
+.blank {
+    display: inline-block;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 12%;
+    float: left;
 }
 
 .main-container {
     max-width: 90%;
     min-width: 40%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .box {
     display: inline-block;
     border: 1px solid blue;
-    width: 10%;
-    padding-bottom: 10%;
+    width: 12%;
+    padding-bottom: 12%;
     float: left;
     position: relative;
 }
