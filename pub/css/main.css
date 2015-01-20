@@ -78,14 +78,14 @@ p {
 
 .main-container {
     max-width: 90%;
-    min-width: 40%;
+    min-width: 450px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .box {
     display: inline-block;
-    border: 1px solid blue;
+    border: 1px solid white;
     width: 12%;
     padding-bottom: 12%;
     float: left;
@@ -93,11 +93,11 @@ p {
 }
 
 .color-one {
-    background-color: #000;
+    background-color: #bbb;
 }
 
 .color-two {
-    background-color: #ccc;
+    background-color: #000;
 }
 
 
