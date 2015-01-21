@@ -64,7 +64,33 @@ null // how exciting
 Returns 3
 ```
 
-### [Operator: ]()
+### [Operator: Unary Negation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+*_symbol_: `-`
+*_pronunciation_: "unary negation"
+*_example_:
+```javascript
+If x is 10, then -x returns -10
+```
+
+### [Operator: Assignment =+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+
+*_symbol_: '+='
+*_pronunciation_: "equals x plus"
+*_example_:
+```javascript
+x += y == x = x + y
+```
+
+### [Operator: ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+
+*_symbol_: '-='
+*_pronunciation_: "x = x - y"
+*_example_:
+```javascript
+```
+
+### [Operator: ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
 *_symbol_: ''
 *_pronunciation_: ""
@@ -72,31 +98,7 @@ Returns 3
 ```javascript
 ```
 
-### [Operator: ]()
-
-*_symbol_: ''
-*_pronunciation_: ""
-*_example_:
-```javascript
-```
-
-### [Operator: ]()
-
-*_symbol_: ''
-*_pronunciation_: ""
-*_example_:
-```javascript
-```
-
-### [Operator: ]()
-
-*_symbol_: ''
-*_pronunciation_: ""
-*_example_:
-```javascript
-```
-
-### [Operator: ]()
+### [Operator: ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
 *_symbol_: ''
 *_pronunciation_: ""
