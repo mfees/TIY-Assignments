@@ -82,15 +82,25 @@ If x is 10, then -x returns -10
 x += y == x = x + y
 ```
 
-### [Operator: ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+### [Operator: Assignment -=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
 *_symbol_: '-='
-*_pronunciation_: "x = x - y"
+*_pronunciation_: "equal x minus"
 *_example_:
 ```javascript
+x -= y == x = x - y
 ```
 
-### [Operator: ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+### [Operator: Assignment *=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+
+*_symbol_: '*='
+*_pronunciation_: "equals x times"
+*_example_:
+```javascript
+x *= y == x = x * y
+```
+
+### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
 *_symbol_: ''
 *_pronunciation_: ""
@@ -98,7 +108,7 @@ x += y == x = x + y
 ```javascript
 ```
 
-### [Operator: ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
 *_symbol_: ''
 *_pronunciation_: ""
@@ -106,7 +116,7 @@ x += y == x = x + y
 ```javascript
 ```
 
-### [Operator: ]()
+### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
 *_symbol_: ''
 *_pronunciation_: ""
@@ -114,15 +124,7 @@ x += y == x = x + y
 ```javascript
 ```
 
-### [Operator: ]()
-
-*_symbol_: ''
-*_pronunciation_: ""
-*_example_:
-```javascript
-```
-
-### [Operator: ]()
+### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
 *_symbol_: ''
 *_pronunciation_: ""
