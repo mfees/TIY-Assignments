@@ -61,10 +61,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 p {
-    color: #fff;
+    color: black;
     position: absolute;
-    top: 7em;
-    right: 8em;
+    bottom: 7px;
+    left: -16px;
     margin: 0;
 }
 
@@ -80,7 +80,6 @@ p {
     max-width: 90%;
     min-width: 450px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .box {
