@@ -40,9 +40,33 @@ null // how exciting
 'I like big cats' + '\n and I cannot lie'
 ```
 
-### [Built in Values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+### [Built in Values: Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
 
-*_values_: 'Infinity' 'NaN' 'undefined'
+*_symbol_: 'Infinity'
+*_pronunciation_: "in-fin-it-ee"
+*_examples_:
+```javascript
+3 * infinity == infinity
+```
+
+### [Built in Values: NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
+
+*_symbol_: 'NaN'
+*_pronunciation_: "not a number", "nahn"
+*_examples_:
+```javascript
+"cat" == NaN
+```
+
+### [Built in Values: Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
+
+*_symbol_: 'undefined'
+*_pronunciation_: "un-defined"
+*_examples_:
+```javascript
+
+```
+
 
 ### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
@@ -62,6 +86,24 @@ null // how exciting
 ```javascript
 43 % 10
 Returns 3
+```
+
+### [Operator: Increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+*_symbol_: '++'
+*_pronunciation_: "increment"
+*_example_:
+```javascript
+12++ == 13
+```
+
+### [Operator: Decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+*_symbol_: '--'
+*_pronunciation_: "decrement"
+*_example_:
+```javascript
+12-- == 11
 ```
 
 ### [Operator: Unary Negation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
@@ -100,34 +142,20 @@ x -= y == x = x - y
 x *= y == x = x * y
 ```
 
-### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+### [Operator: Assignment /=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
-*_symbol_: ''
-*_pronunciation_: ""
+*_symbol_: '/='
+*_pronunciation_: "equals x divided"
 *_example_:
 ```javascript
+x /= y == x = x / y
 ```
 
-### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
+### [Operator: Assignment %=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 
-*_symbol_: ''
-*_pronunciation_: ""
+*_symbol_: '%='
+*_pronunciation_: "equal x modulus"
 *_example_:
 ```javascript
-```
-
-### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
-
-*_symbol_: ''
-*_pronunciation_: ""
-*_example_:
-```javascript
-```
-
-### [Operator: Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
-
-*_symbol_: ''
-*_pronunciation_: ""
-*_example_:
-```javascript
+x %= y == x = x % y 
 ```
