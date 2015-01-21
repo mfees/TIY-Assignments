@@ -162,6 +162,8 @@ x %= y == x = x % y
 
 ### [Statements: If](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#if...else_Statement)
 
+If statement only runs a set of statements if the condition is true:
+
 *_symbol_: 'if'
 *_pronunciation_: "if"
 *_example_:
@@ -171,12 +173,20 @@ if (score >= 50) {
 }
 ```
 
-### [Statements: If]()
+### [Statements: Else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#if...else_Statement)
 
-*_symbol_: ''
-*_pronunciation_: ""
+If...else statement runs one set of code if the condition is true or a different set if it is false:
+
+*_symbol_: 'else'
+*_pronunciation_: "else"
 *_example_:
 ```javascript
+if (score >= 50) {
+    congratulate();
+}
+else {
+    encourage();
+}
 ```
 
 ### [Statements: If]()
