@@ -68,7 +68,7 @@ null // how exciting
 ```
 
 
-### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B)
 
 * _symbol_: `+`
 * _pronunciation_: "plus", "added to"
@@ -159,4 +159,30 @@ x /= y == x = x / y
 ```javascript
 x %= y == x = x % y 
 ```
-woohoo
+
+### [Statements: If](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#if...else_Statement)
+
+*_symbol_: 'if'
+*_pronunciation_: "if"
+*_example_:
+```javascript
+if (score >= 50) {
+    congratulate();
+}
+```
+
+### [Statements: If]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Statements: If]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
