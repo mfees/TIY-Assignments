@@ -189,10 +189,15 @@ else {
 }
 ```
 
-### [Statements: If]()
+### [Statements: Return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
 
-*_symbol_: ''
-*_pronunciation_: ""
+Specifies the value returned by the function:
+
+*_symbol_: 'return'
+*_pronunciation_: "return"
 *_example_:
 ```javascript
+function blank(A + B){
+    return: answer;
+}
 ```
