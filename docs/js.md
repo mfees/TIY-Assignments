@@ -40,6 +40,10 @@ null // how exciting
 'I like big cats' + '\n and I cannot lie'
 ```
 
+### [Built in Values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+
+*_values: 'Infinity' 'NaN' 'undefined'
+
 ### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
 * _symbol_: `+`
