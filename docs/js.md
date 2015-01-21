@@ -42,7 +42,7 @@ null // how exciting
 
 ### [Built in Values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 
-*_values: 'Infinity' 'NaN' 'undefined'
+*_values_: 'Infinity' 'NaN' 'undefined'
 
 ### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
@@ -52,4 +52,78 @@ null // how exciting
 ```javascript
 1 + 2 + 3 // 6, of course
 '1' + 2 + 3 // '123', obviously... WTF?
+```
+
+### [Operator: Modulus](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators)
+
+*_symbol_: `%`
+*_pronunciation_: "mod-u-lus"
+*_example_:
+```javascript
+43 % 10
+Returns 3
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
+```
+
+### [Operator: ]()
+
+*_symbol_: ''
+*_pronunciation_: ""
+*_example_:
+```javascript
 ```
