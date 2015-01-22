@@ -202,28 +202,46 @@ function blank(A + B){
 }
 ```
 
-### [Statements: Loops-For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#for_Statement)
+### [Statements: Loops-For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
-*_symbol_:''
-*_pronunciation_: ""
+Often used to loop through the items in an array:
+
+*_symbol_:'for'
+*_pronunciation_: "for"
 *_example_: 
 ```javascript
+var score + [24, 32, 17];
+var arrayLenght = scores.length;
+var roundNumber = 0;
+var msg = '';
+var i;
+
+for (i = 0; i < arrayLength; i++){
+    roundNumber = (i + 1);
+    msg += 'Round' + roundNumber + ': ';
+    msg =+ scores [i] + '<br>';
+}
+
+document.getElementById('answer').innerHTML = msg;
 ```
 
-### [Statements: ]()
+### [Statements: Loops-While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
-*_symbol_:''
-*_pronunciation_: ""
+creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
+
+*_symbol_:'while'
+*_pronunciation_: "while"
 *_example_: 
 ```javascript
-```
+var i = 1;
+var msg = '';
 
-### [Statements: ]()
+while (i < 10){
+    msg += i + 'x 5 =' + (i * 5) + '<br>';
+    i++;
+}
 
-*_symbol_:''
-*_pronunciation_: ""
-*_example_: 
-```javascript
+document.getElementById('answer').innerHTML = msg;
 ```
 
 ### [Statements: ]()
