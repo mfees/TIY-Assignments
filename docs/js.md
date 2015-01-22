@@ -351,3 +351,19 @@ while (i < 5) {
    n += i;
 }
 ```
+
+### Literal: `Array`
+
+Stores a list of values:
+
+* *symbol:* `[ ]`
+* *pronunciation:* "array", "new array"
+* *examples:*
+```javascript
+
+emptyArray = ['x', 'y', 'z']
+
+filledArray = ['white', 'black', 'blue'];
+
+anotherArray = [['white', 'black'] ['black', 'white'] ['white', 'blue']];
+```
