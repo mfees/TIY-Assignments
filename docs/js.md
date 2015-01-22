@@ -201,3 +201,67 @@ function blank(A + B){
     return: answer;
 }
 ```
+
+### [Statements: Loops-For](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#for_Statement)
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
+
+### [Statements: ]()
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
+
+### [Statements: ]()
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
+
+### [Statements: ]()
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
+
+### [Statements: ]()
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
+
+### [Statements: ]()
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
+
+### [Statements: ]()
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
+
+### [Statements: ]()
+
+*_symbol_:''
+*_pronunciation_: ""
+*_example_: 
+```javascript
+```
