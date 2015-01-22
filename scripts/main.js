@@ -90,4 +90,30 @@ function wordToInt(word){
     else if (word == 'nine'){
         return 9;
     }
+    
+    else if (word == 'ten'){
+        return 10;
+    }
 }
+
+assert(plus("zero", "zero") === 0);
+
+assert(plus("one", "zero") === 1);
+
+assert(plus("one", "one") === 2);
+
+assert(plus("one", "two") === 3);
+
+assert(plus("two", "two") === 4);
+
+assert(plus("three", "two") === 5);
+
+assert(plus("three", "three") === 6);
+
+assert(plus("four", "three") === 7);
+
+assert(plus("four", "four") === 8);
+
+assert(plus("five", "four") === 9);
+
+assert(plus("five", "five") === 10);
