@@ -377,3 +377,15 @@ var numSomething;
 numSomething = colors.length ();
 ```
 
+#### [`Array.prototype.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+* *result:* removes the last element from an array and returns that element.
+* *parameters:* Objects which do not contain a length property reflecting the last in a series of consecutive, zero-based numerical properties may not behave in any meaningful manner.
+* *returns:* call pop() == undefined, returns the last element
+```javascript
+var myLife = ['html', 'css', 'javascript'];
+
+var popped = myLife.pop();
+
+console.log(popped); // 'javascript'
+```
