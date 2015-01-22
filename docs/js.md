@@ -443,3 +443,29 @@ scores.sort(); // [1, 10, 2, 21]
 var things = ['word', 'Word', '1 Word', '2 Words'];
 things.sort(); // ['1 Word', '2 Words', 'Word', 'word']
 ```
+
+#### `Array.prototype.splice()'
+* *result:* Changes the content of an array by removing existing elements and/or adding new elements.
+* *parameters:* start, deleteCount, itemN
+* *returns:* An array containing the deleted elements. If only one element is removed, an array of one element is returned. If no elements are removed, an empty array is returned.
+```javascript
+
+```
+
+#### `Array.prototype.unshift()'
+* *result:* Adds one or more elements to the beginning of an array and returns the new length of the array.
+* *parameters:* elementN 
+* *returns:* The new length property of the object upon which the method was called.
+```javascript
+var arr = [1, 2];
+
+arr.unshift(0); // result of call is 3, the new array length
+// arr is [0, 1, 2]
+
+arr.unshift(-2, -1); // = 5
+// arr is [-2, -1, 0, 1, 2]
+
+arr.unshift([-3]);
+// arr is [[-3], -2, -1, 0, 1, 2]
+```
+
