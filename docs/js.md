@@ -367,3 +367,13 @@ filledArray = ['white', 'black', 'blue'];
 
 anotherArray = [['white', 'black'] ['black', 'white'] ['white', 'blue']];
 ```
+
+#### `Array.length`
+
+* *value:* `Number` of items in array
+* *examples:*
+```javascript
+var numSomething;
+numSomething = colors.length ();
+```
+
