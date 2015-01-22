@@ -389,3 +389,57 @@ var popped = myLife.pop();
 
 console.log(popped); // 'javascript'
 ```
+
+#### `Array.prototype.push()'
+* *result:* Adds one or more elements to the end of an array and returns the new length of the array.
+* *parameters:* elementN: The elements to add to the end of the array.
+* *returns:* what types? The new length property of the object upon which the method was called.
+```javascript
+var love = ['cats', 'kittens'];
+var total = love.push('dogs', 'puppies');
+
+console.log(love); // ['cats', 'kittens', 'dogs', 'puppies']
+console.log(total);  // 4
+```
+
+#### `Array.prototype.reverse()'
+
+* *result:* reverses an array in place. The first array element becomes the last and the last becomes the first.
+* *parameters:* none
+* *returns:* transposes the elements of the calling array object in place, mutating the array, and returning a reference to the array.
+```javascript
+var myArray = ['one', 'two', 'three'];
+myArray.reverse(); 
+
+console.log(myArray) // ['three', 'two', 'one']
+```
+
+#### `Array.prototype.shift()'
+* *result:* Removes the first element from an array and returns that element.
+* *parameters:* n/a
+* *returns:* If the length property is 0, undefined is returned.
+```javascript
+var myLove = ['cats', 'kittens', 'dogs', 'puppies'];
+
+console.log('myLove before: ' + myLove);
+
+var shifted = myLove.shift();
+
+console.log('myLove after: ' + myLove);
+console.log('Removed this element: ' + shifted);
+```
+
+#### `Array.prototype.sort()'
+* *result:* Sorts the elements of an array in place and returns the array.
+* *parameters:* compareFunction
+* *returns:*  
+```javascript
+var fruit = ['apples', 'bananas', 'Cherries'];
+fruit.sort(); // ['Cherries', 'apples', 'bananas'];
+
+var scores = [1, 2, 10, 21]; 
+scores.sort(); // [1, 10, 2, 21]
+
+var things = ['word', 'Word', '1 Word', '2 Words'];
+things.sort(); // ['1 Word', '2 Words', 'Word', 'word']
+```
