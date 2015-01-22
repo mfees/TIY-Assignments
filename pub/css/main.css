@@ -99,6 +99,42 @@ p {
     background-color: #000;
 }
 
+.black {
+    color: #444;
+}
+
+.position {
+    font-size: 4em;
+    position: absolute;
+    left: .7em;
+    top: .4em;
+}
+
+.rook:before {
+    content: "\265C";
+}
+
+.knight:before {
+    content: "\265E";
+}
+
+.bishop:before {
+    content: "\265D";
+}
+
+.queen:before {
+    content: "\265B";
+}
+
+.king:before {
+    content: "\265A";
+}
+
+.pawn:before {
+    content: "\265F"
+}
+
+
 
 
 
