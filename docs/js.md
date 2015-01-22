@@ -189,6 +189,28 @@ else {
 }
 ```
 
+### [Statements: Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#switch_Statement)
+
+Statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement:
+
+*_symbol_:'switch'
+*_pronunciation_: "switch"
+*_example_: 
+```javascript
+switch (expression) {
+   case label_1:
+      statements_1
+      [break;]
+   case label_2:
+      statements_2
+      [break;]
+   ...
+   default:
+      statements_def
+      [break;]
+}
+```
+
 ### [Statements: Return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
 
 Specifies the value returned by the function:
@@ -244,42 +266,88 @@ while (i < 10){
 document.getElementById('answer').innerHTML = msg;
 ```
 
-### [Statements: ]()
+### [Statements: Loops-do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#do...while_Statement)
 
-*_symbol_:''
-*_pronunciation_: ""
+Statements in the code block come before the condition. This means that those statements are run once whether or not the condition is met:
+
+*_symbol_:'do while'
+*_pronunciation_: "do while"
 *_example_: 
 ```javascript
+var n = 0;
+var x = 0;
+
+while (n < 3) {
+  n++;
+  x += n;
+}
 ```
 
-### [Statements: ]()
+### [Statements: Label](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#label_Statement)
 
-*_symbol_:''
-*_pronunciation_: ""
+A statement with an identifier that lets you refer to it elsewhere in your program:
+
+*_symbol_:'word'
+*_pronunciation_: "label"
 *_example_: 
 ```javascript
+markLoop:
+while (theMark == true) {
+   doSomething();
+}
 ```
 
-### [Statements: ]()
+### [Statements: Break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#break_Statement)
 
-*_symbol_:''
-*_pronunciation_: ""
+Statement to terminate a loop, switch, or in conjunction with a label statement
+* When you use break without a label, it terminates the innermost enclosing while, do-while, for, or switch immediately and transfers control to the following statement.
+* When you use break with a label, it terminates the specified labeled statement:
+
+*_symbol_:'break' 'break label'
+*_pronunciation_: "break" "break label"
 *_example_: 
 ```javascript
+Break:
+for (i = 0; i < a.length; i++) {
+   if (a[i] == theValue)
+      break;
+}
+
+
+Break Label:
+
+var x = 0;
+var z = 0
+labelCancelLoops: while (true) {
+    console.log("Outer loops: " + x);
+    x += 1;
+    z = 1;
+    while (true) {
+        console.log("Inner loops: " + z);
+        z += 1;
+        if (z === 10 && x === 10) {
+            break labelCancelLoops;
+        } else if (z === 10) {
+            break;
+        }
+    }
+}
 ```
 
-### [Statements: ]()
+### [Statements: Continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#continue_Statement)
 
-*_symbol_:''
-*_pronunciation_: ""
+Statement can be used to restart a while, do-while, for, or label statement
+
+*_symbol_:'continue'
+*_pronunciation_: "continue"
 *_example_: 
 ```javascript
-```
-
-### [Statements: ]()
-
-*_symbol_:''
-*_pronunciation_: ""
-*_example_: 
-```javascript
+i = 0;
+n = 0;
+while (i < 5) {
+   i++;
+   if (i == 3)
+      continue;
+   n += i;
+}
 ```
