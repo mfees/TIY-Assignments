@@ -1,11 +1,17 @@
-var assert = require ('assert');
+var assert = require('assert');
 
 function plus(A, B) {
-    return 2;
+    return A + B;
 }
 
-it('should add "one" and "one"', function (){
-    asssert.equal(plus("one", "one"), 4);
+plus(1, 2);
+
+console.log(plus(1, 2));
+
+it('make two string numbers into number total', function () {
+    assert.equal(plus("one", "one"), 2);
+    assert.equal(plus("three", "two"), 5);
+    assert.equal(plus("two", "four"), 6);
 });
 
 
