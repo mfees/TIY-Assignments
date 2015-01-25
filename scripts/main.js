@@ -60,6 +60,55 @@ it ('should add "five" and "zero"', function () {
 });*/
 
 
+/*function plus(A, B) {
+    if (A === "six" && B === "zero");
+    return 6;
+}
+
+it ('should add "six" and "zero"', function () {
+    assert.equal(plus("six", "zero"), 6);
+});*/
+
+
+/*function plus(A, B) {
+    if (A === "seven" &&  B === "zero");
+    return 7;
+}
+
+it ('should add "seven" and "zero"', function () {
+    assert.equal(plus("seven", "zero"), 7);
+});*/
+
+
+/*function plus (A, B) {
+    if (A === "eight" && B === "zero");
+    return 8;
+}
+
+it ('should add "eight" and "zero"', function () {
+    assert.equal(plus("eight", "zero"), 8);
+});*/
+
+
+/*function plus (A, B) {
+    if (A === "nine" && B === "zero");
+    return 9;
+}
+
+it ('should add "nine" and "zero"', function () {
+   assert.equal(plus("nine", "zero"), 9);
+});*/
+
+
+function plus (A, B) {
+    if (A === "ten" && B === "zero");
+    return 10;
+}
+
+if ('should add "ten" and "zero"', function () {
+    assert.equal(plus("ten", "zero"), 10);
+});
+
 /*function toEnglish (A) {
     if (A === 0);
     return "zero"
@@ -160,11 +209,11 @@ it ('should change 9 to english "nine"', function () {
 });*/
 
 
-function toEnglish(A) {
+/*function toEnglish(A) {
     if (A === 10);
     return "ten";
 }
 
 it ('should change 10 to english "ten"', function () {
     assert.equal(toEnglish(10), "ten");
-});
+});*/
