@@ -10,7 +10,6 @@ it('should add "zero" and "zero"', function () {
 });*/
 
 
-
 function plus(A, B) {
     if (A === "one" && B === "zero");
     return 1;
