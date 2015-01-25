@@ -30,11 +30,21 @@ it ('should add "two" and "zero"', function () {
 });*/
 
 
-function plus(A, B) {
+/*function plus(A, B) {
     if (A === "three" && B === "zero");
     return 3;
 }
 
 it ('should add "three" and "zero"', function () {
     assert.equal(plus("three", "zero"), 3);
+});*/
+
+
+function plus (A, B) {
+    if (A === "four" && B === "zero");
+    return 4;
+}
+
+it ('should add "four" and "zero"', function () {
+    assert.equal(plus("four", "zero"), 4);
 });
