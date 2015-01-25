@@ -70,11 +70,21 @@ it ('should change 0 to english "zero"', function () {
 });*/
 
 
-function toEnglish (A) {
+/*function toEnglish (A) {
     if (A === 1);
     return "one";
 }
 
 it ('should change 1 to english "one"', function () {
     assert.equal(toEnglish(1), "one");
+});*/
+
+
+function toEnglish(A) {
+    if (A === 2);
+    return "two";
+}
+
+it ('should change 2 to english "two"', function () {
+    assert.equal(toEnglish(2), "two");
 });
