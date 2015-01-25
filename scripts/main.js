@@ -60,11 +60,21 @@ it ('should add "five" and "zero"', function () {
 });*/
 
 
-function toEnglish (A) {
+/*function toEnglish (A) {
     if (A === 0);
     return "zero"
 }
 
 it ('should change 0 to english "zero"', function () {
     assert.equal(toEnglish(0), "zero");
+});*/
+
+
+function toEnglish (A) {
+    if (A === 1);
+    return "one";
+}
+
+it ('should change 1 to english "one"', function () {
+    assert.equal(toEnglish(1), "one");
 });
