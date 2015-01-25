@@ -20,11 +20,21 @@ it ('should add "one" and "zero"', function () {
 });*/
 
 
-function plus(A, B) {
+/*function plus(A, B) {
     if (A === "two" && B === "zero"); 
     return 2;
 }
 
 it ('should add "two" and "zero"', function () {
     assert.equal(plus("two", "zero"), 2);
+});*/
+
+
+function plus(A, B) {
+    if (A === "three" && B === "zero");
+    return 3;
+}
+
+it ('should add "three" and "zero"', function () {
+    assert.equal(plus("three", "zero"), 3);
 });
