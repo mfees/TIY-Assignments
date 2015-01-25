@@ -40,11 +40,21 @@ it ('should add "three" and "zero"', function () {
 });*/
 
 
-function plus (A, B) {
+/*function plus (A, B) {
     if (A === "four" && B === "zero");
     return 4;
 }
 
 it ('should add "four" and "zero"', function () {
     assert.equal(plus("four", "zero"), 4);
+});*/
+
+
+function plus(A, B) {
+    if (A === "five" && B === "zero");
+    return 5;
+}
+
+it ('should add "five" and "zero"', function () {
+    assert.equal(plus("five", "zero"), 5);
 });
