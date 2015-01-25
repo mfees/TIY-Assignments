@@ -80,11 +80,21 @@ it ('should change 1 to english "one"', function () {
 });*/
 
 
-function toEnglish(A) {
+/*function toEnglish(A) {
     if (A === 2);
     return "two";
 }
 
 it ('should change 2 to english "two"', function () {
     assert.equal(toEnglish(2), "two");
+});*/
+
+
+function toEnglish(A) {
+    if (A === 3);
+    return "three";
+}
+
+it ('should change 3 to english "three"', function () {
+    assert.equal(toEnglish(3), "three");
 });
