@@ -90,11 +90,21 @@ it ('should change 2 to english "two"', function () {
 });*/
 
 
-function toEnglish(A) {
+/*function toEnglish(A) {
     if (A === 3);
     return "three";
 }
 
 it ('should change 3 to english "three"', function () {
     assert.equal(toEnglish(3), "three");
+});*/
+
+
+function toEnglish(A) {
+    if (A === 4);
+    return "four";
+}
+
+it ('should change 4 to english "four"', function () {
+    assert.equal(toEnglish(4), "four");
 });
