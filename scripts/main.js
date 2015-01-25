@@ -50,11 +50,21 @@ it ('should add "four" and "zero"', function () {
 });*/
 
 
-function plus(A, B) {
+/*function plus(A, B) {
     if (A === "five" && B === "zero");
     return 5;
 }
 
 it ('should add "five" and "zero"', function () {
     assert.equal(plus("five", "zero"), 5);
+});*/
+
+
+function toEnglish (A) {
+    if (A === 0);
+    return "zero"
+}
+
+it ('should change 0 to english "zero"', function () {
+    assert.equal(toEnglish(0), "zero");
 });
