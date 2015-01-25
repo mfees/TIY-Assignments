@@ -100,11 +100,21 @@ it ('should change 3 to english "three"', function () {
 });*/
 
 
-function toEnglish(A) {
+/*function toEnglish(A) {
     if (A === 4);
     return "four";
 }
 
 it ('should change 4 to english "four"', function () {
     assert.equal(toEnglish(4), "four");
+});*/
+
+
+function toEnglish(A) {
+    if (A === 5);
+    return "five";
+}
+
+it ('should change 5 to english "five"', function () {
+    assert.equal(toEnglish(5), "five");
 });
