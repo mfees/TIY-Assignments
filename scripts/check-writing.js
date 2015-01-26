@@ -1,8 +1,11 @@
 var assert = require('assert');
 
 function toEnglish (a) {
-    if (a == 1) {
-    return "one";
+    if (a == 0) {
+    return "zero";
+        
+    } else if ( a == 1);
+        return "one";
     
     } else if ( a == 2) {
         return "two";
@@ -32,6 +35,10 @@ function toEnglish (a) {
         return "ten";
     }
 }
+
+it ('should return an english number"', function () {
+    assert.equal(toEnglish(0), "zero");
+});
 
 it ('should return an english number"', function () {
     assert.equal(toEnglish(1), "one");
