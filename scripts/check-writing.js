@@ -1,111 +1,74 @@
 var assert = require('assert');
 
-
-/*function toEnglish (A) {
-    if (A === 0);
-    return "zero"
-}
-
-it ('should change 0 to english "zero"', function () {
-    assert.equal(toEnglish(0), "zero");
-});*/
-
-
-/*function toEnglish (A) {
-    if (A === 1);
+function toEnglish (a) {
+    if (a == 1) {
     return "one";
+    
+    } else if ( a == 2) {
+        return "two";
+        
+    } else if ( a == 3) {
+        return "three";
+        
+    } else if ( a == 4) {
+        return "four";
+        
+    } else if ( a == 5) {
+        return "five";
+        
+    } else if ( a == 6) {
+        return "six";
+        
+    } else if ( a == 7) {
+        return "seven";
+        
+    }else if ( a == 8) {
+        return "eight";
+    
+    } else if ( a == 9) {
+        return "nine";
+    
+    } else if ( a == 10) {
+        return "ten";
+    }
 }
 
-it ('should change 1 to english "one"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(1), "one");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 2);
-    return "two";
-}
-
-it ('should change 2 to english "two"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(2), "two");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 3);
-    return "three";
-}
-
-it ('should change 3 to english "three"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(3), "three");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 4);
-    return "four";
-}
-
-it ('should change 4 to english "four"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(4), "four");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 5);
-    return "five";
-}
-
-it ('should change 5 to english "five"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(5), "five");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 6);
-    return "six";
-}
-
-it ('should change 6 to english "six"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(6), "six");
-});*/
+});
 
-
-/*function toEnglish (A) {
-    if (A === 7);
-    return "seven";
-}
-
-it ('should change 7 to english "seven"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(7), "seven");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 8);
-    return "eight";
-}
-
-it ('should change 8 to english "eight"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(8), "eight");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 9);
-    return "nine";
-}
-
-it ('should change 9 to english "nine"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(9), "nine");
-});*/
+});
 
-
-/*function toEnglish(A) {
-    if (A === 10);
-    return "ten";
-}
-
-it ('should change 10 to english "ten"', function () {
+it ('should return an english number"', function () {
     assert.equal(toEnglish(10), "ten");
-});*/
+});
