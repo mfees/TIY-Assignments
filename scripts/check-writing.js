@@ -1,6 +1,19 @@
 var assert = require('assert');
 
-function toEnglish (a) {
+var toEnglish = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+
+function counter(a) {
+    return toEnglish[a];
+}
+
+
+it ('should return a numerical number as an english number', function () {
+    assert.equal(counter(0), "zero");
+});
+
+
+
+/*function toEnglish (a) {
     if (a == 0) {
     return "zero";
         
@@ -79,3 +92,5 @@ it ('should return an english number"', function () {
 it ('should return an english number"', function () {
     assert.equal(toEnglish(10), "ten");
 });
+
+*/
