@@ -469,3 +469,37 @@ arr.unshift([-3]);
 // arr is [[-3], -2, -1, 0, 1, 2]
 ```
 
+
+#### Literal: Array
+. . .
+
+#### Iterator Methods
+
+##### `Array.prototype.every`
+
+* _params:_
+  * `callback`: `Function` to test each element against
+    * _params:_
+      * `item`: element to process
+      * `index`: index of processed element
+      * `all`: array instance
+    * _returns:_ `Boolean`
+  * `thisArg`: `Object` to which to bind `callback`
+* _returns:_ `Boolean` whether `callback` returns `true` for _every_ element
+* _example:_
+```javascript
+function every(anArray, callback){
+  var hasFailed = false; // it hasn't has it?
+
+  // iterate...
+  anArray.foreach(function(item, index, all){
+    if ( hasFailed ) return; // one failure ruins everything...
+
+    hasFailed = !callback(item, index, all); // why invert here?
+  });
+
+  return !hasFailed; // Another inverse?
+  // What if `anArray` is empty?
+}
+```
+
