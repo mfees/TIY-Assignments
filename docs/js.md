@@ -545,6 +545,21 @@ function isBiggerThan10(element, index, array) {
 [12, 5, 8, 1, 4].some(isBiggerThan10); // true
 ```
 
+#### Array.prototype.filter
+
+* params: 
+    * callback: Function to test each element of the array. Invoked with arguments (element, index, array).
+    * thisArg: Optional. Value to use as this when executing callback.
+* returns: 'Boolean'
+* example:
+```javascript
+function isBigEnough(element) {
+  return element >= 10;
+}
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 130, 44]
+```
+
 #### Array.prototype.
 
 * params:
