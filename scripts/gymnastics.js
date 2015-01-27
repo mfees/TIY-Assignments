@@ -9,9 +9,14 @@ console.log(Date());
     });
 
 function answer() {
-    var pushEvents = events.filter (function(item) {
+    var pushEvents = events.filter(function(item) {
         return item.type == 'PushEvent';
     });
+    
+    var day = events.filter(function(item) {
+        return item.type == 'updated_at';
+    });
+    
     return {
         'total': events.length,
         'PushEvent': {
