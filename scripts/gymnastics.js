@@ -9,12 +9,18 @@ console.log(Date());
     });
 
 function answer() {
+    var pushEvents = events.filter (function(item) {
+        return item.type == 'PushEvent';
+    });
     return {
         'total': events.length,
-        'PushEvent': 0,
-    };
+        'PushEvent': {
+            'total': pushEvents.length  
+        } 
+    }; 
 };
 
+console.log(answer());
 console.log(events.length)
 var theAnswer = answer()
 
@@ -29,6 +35,7 @@ var theAnswer = answer()
 
     it ('should have "PushEvent"', function () {
         assert(theAnswer.PushEvent);
+        assert(theAnswer.PushEvent.total);
     });
     
     
