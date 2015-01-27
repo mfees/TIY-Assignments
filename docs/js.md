@@ -546,11 +546,12 @@ function isBiggerThan10(element, index, array) {
 ```
 
 #### Array.prototype.filter
+method creates a new array with all elements that pass the test implemented by the provided function
 
 * params: 
     * callback: Function to test each element of the array. Invoked with arguments (element, index, array).
     * thisArg: Optional. Value to use as this when executing callback.
-* returns: 'Boolean'
+* returns: 'Boolean' or 'value'
 * example:
 ```javascript
 function isBigEnough(element) {
@@ -560,12 +561,23 @@ var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
 // filtered is [12, 130, 44]
 ```
 
-#### Array.prototype.
+#### Array.prototype.map
+method creates a new array with the results of calling a provided function on every element in this array
 
 * params:
+    * callback: Function that produces an element of the new Array, taking three arguments:
+        * currentValue: The current element being processed in the array.
+        * index: The index of the current element being processed in the array.
+        * array: The array map was called upon.
+    * thisArg: Optional. Value to use as this when executing callback.
 * returns:
 * example:
 ```javascript
+var numbers = [1, 4, 9];
+var doubles = numbers.map(function(num) {
+  return num * 2;
+});
+// doubles is now [2, 8, 18]. numbers is still [1, 4, 9]
 ```
 
 #### Array.prototype.
