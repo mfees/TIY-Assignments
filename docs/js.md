@@ -503,3 +503,65 @@ function every(anArray, callback){
 }
 ```
 
+#### Array.prototype.foreach
+
+* params:
+    * callback: produces an element of the new Array
+        * currentValue: current element being processed in the array.
+        * index: index of the current element being processed in the array.
+        * array: array forEach() was called upon.
+    * thisArg: Optional. Value to use as this when executing callback.
+* returns:
+* example:
+```javascript
+function logArrayElements(element, index, array) {
+  console.log('a[' + index + '] = ' + element);
+}
+
+[2, 5, , 9].forEach(logArrayElements);
+logs:
+a[0] = 2
+a[1] = 5
+a[3] = 9
+```
+
+#### Array.prototype.
+
+* params:
+* returns:
+* example:
+```javascript
+```
+
+#### Array.prototype.
+
+* params:
+* returns:
+* example:
+```javascript
+```
+
+#### Array.prototype.
+
+* params:
+* returns:
+* example:
+```javascript
+```
+
+#### Array.prototype.
+
+* params:
+* returns:
+* example:
+```javascript
+```
+
+#### Array.prototype.
+
+* params:
+* returns:
+* example:
+```javascript
+```
+
