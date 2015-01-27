@@ -504,7 +504,8 @@ function every(anArray, callback){
 ```
 
 #### Array.prototype.foreach
-
+ method executes a provided function once per array element
+ 
 * params:
     * callback: produces an element of the new Array
         * currentValue: current element being processed in the array.
@@ -525,20 +526,23 @@ a[1] = 5
 a[3] = 9
 ```
 
-#### Array.prototype.
+#### Array.prototype.some
+tests whether some element in the array passes the test implemented by the provided function
 
 * params:
-* returns:
+    * callback: to test for each element, taking three arguments:
+        * currentValue: The current element being processed in the array.
+        * index: The index of the current element being processed in the array.
+        * array: The array some was called upon.
+    * thisArg: Optional. Value to use as this when executing callback.
+* returns: 'Boolean'
 * example:
 ```javascript
-```
-
-#### Array.prototype.
-
-* params:
-* returns:
-* example:
-```javascript
+function isBiggerThan10(element, index, array) {
+  return element > 10;
+}
+[2, 5, 8, 1, 4].some(isBiggerThan10);  // false
+[12, 5, 8, 1, 4].some(isBiggerThan10); // true
 ```
 
 #### Array.prototype.
