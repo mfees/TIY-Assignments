@@ -1,36 +1,39 @@
 var assert = require('assert');
 var events = require('../apis/github/users/mfees/events.json'); 
 
-function answer(){
+function answer() {
+    var numberOfPushEvents = 0;
+    
+    var firstEvent = events[0];
+    
+    if( firstEvent.type == "PushEvent") {
+        numberOfPushEvents++;
+    }
+    
+    var secondEvent = event[1];
+    
+    if ( secondEvent = "PushEvent") {
+        numberOfPushEvents++;
+    }
+    
   return {
-    'total': events.length
-  }
+    'total': events.length,
+    'PushEvents': {
+        'total': numberOfPushEvents,
+    }
+  };
 } // END answer
 
-describe ('the setup', function () {
-    it ('should have events', function () {
-        assert(events);
-    });
-
-    it ('should have an 'answer' function', function () {
-        assert(answer);
-        assert(typeof answer == 'function');
-    });
-});
-
-describe ('the answer' function () {
+    assert(events);
+    assert(answer);
+    assert(typeof answer == 'function');
+        
     var theAnswer = answer ();
     
-    it ('should have 30 total events', function () {
-        assert(theAnswer.total === 20);
-    });
+    assert.equal(theAnswer.total, 30);
+    assert(theAnswer.PushEvents);
+    assert(theAnswer.PushEvents.total);
     
-    it ('should have some 'PushEvent' entries', function () {
-        assert(theAnswer.PushEvents.total);
-    });
-});
-
-
 /*    'PushEvent': {
       'total': ...,  // How many total events of type `PushEvent` are there?
       'perDay': ...  // On average, how many`PushEvent` entries per day?
