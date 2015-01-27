@@ -590,7 +590,7 @@ method applies a function against an accumulator and each value of the array (fr
         * index: The index of the current element being processed in the array.
         * array: The array reduce was called upon.
     * initialValue: Optional. Object to use as the first argument to the first call of the callback.
-* returns:
+* returns: 'value'
 * example:
 ```javascript
 var total = [0, 1, 2, 3].reduce(function(a, b) {
@@ -599,11 +599,22 @@ var total = [0, 1, 2, 3].reduce(function(a, b) {
 // total == 6
 ```
 
-#### Array.prototype.
+#### Array.prototype.reduceRight
+method applies a function against an accumulator and each value of the array (from right-to-left) has to reduce it to a single value
 
 * params:
-* returns:
+    * callback: Function to execute on each value in the array, taking four arguments:
+        * previousValue: The value previously returned in the last invocation of the callback, or initialValue, if supplied.
+        * currentValue: The current element being processed in the array.
+        * index: The index of the current element being processed in the array.
+        * array: The array reduce was called upon.
+    * initialValue: Optional. Object to use as the first argument to the first call of the callback.
+* returns: 'value'
 * example:
 ```javascript
+var flattened = [[0, 1], [2, 3], [4, 5]].reduceRight(function(a, b) {
+    return a.concat(b);
+}, []);
+// flattened is [4, 5, 2, 3, 0, 1]
 ```
 
