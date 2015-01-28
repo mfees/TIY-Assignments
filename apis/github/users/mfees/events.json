@@ -1,4 +1,2217 @@
-{
-  "message": "Not Found",
-  "documentation_url": "https://developer.github.com/v3"
-}
+[
+  {
+    "id": "2540946760",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558037133,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "07ba0a7620c132e414c10733e8368e5c32387781",
+      "before": "64559e71867da23c47ff6602caf6a4325fa42231",
+      "commits": [
+        {
+          "sha": "07ba0a7620c132e414c10733e8368e5c32387781",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "refetching api data from",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/07ba0a7620c132e414c10733e8368e5c32387781"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:06:40Z"
+  },
+  {
+    "id": "2540936666",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558033043,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "64559e71867da23c47ff6602caf6a4325fa42231",
+      "before": "ea30d525fd08c8bcb69b455b266174ebb6116f9e",
+      "commits": [
+        {
+          "sha": "64559e71867da23c47ff6602caf6a4325fa42231",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "making the check writing loop asserts, testing up to 20 done, boom",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/64559e71867da23c47ff6602caf6a4325fa42231"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T01:59:37Z"
+  },
+  {
+    "id": "2540883623",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558011954,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "ea30d525fd08c8bcb69b455b266174ebb6116f9e",
+      "before": "1e5eaa344a440afbabc7cf2574b4be328502da2a",
+      "commits": [
+        {
+          "sha": "ea30d525fd08c8bcb69b455b266174ebb6116f9e",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "makin dat string calulator calculate",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/ea30d525fd08c8bcb69b455b266174ebb6116f9e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T01:24:59Z"
+  },
+  {
+    "id": "2540830791",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557990781,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "1e5eaa344a440afbabc7cf2574b4be328502da2a",
+      "before": "d16157125eaa16b1db623c12b248cf82e15fd5ac",
+      "commits": [
+        {
+          "sha": "1e5eaa344a440afbabc7cf2574b4be328502da2a",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "adding string calc values and making it work for input A",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/1e5eaa344a440afbabc7cf2574b4be328502da2a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T00:52:20Z"
+  },
+  {
+    "id": "2540411078",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557825586,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "d16157125eaa16b1db623c12b248cf82e15fd5ac",
+      "before": "3bf20c0685b46c78966efe26b937c4938d387d80",
+      "commits": [
+        {
+          "sha": "d16157125eaa16b1db623c12b248cf82e15fd5ac",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "attempting to find average number of push events per day but failed so deleted and moved on",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/d16157125eaa16b1db623c12b248cf82e15fd5ac"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T21:37:21Z"
+  },
+  {
+    "id": "2540406851",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "id": 55658352,
+        "number": 168,
+        "title": "14 -- Hello Lodash -- Maddie Fees",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-27T18:50:33Z",
+        "updated_at": "2015-01-27T21:35:36Z",
+        "closed_at": null,
+        "body": "## Deliverables\r\n\r\n* [ ] _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * [x] link to your PR from your _WIP Branch_ to `master`\r\n  * [ ] comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n* [ ] _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * [ ] `scripts/check-writing.js`\r\n    * [ ] using array lookups instead of `if`-`return` chains\r\n    * [ ] tests covering up to `20`\r\n  * [ ] `scripts/string-calculator.js`\r\n    * [ ] using dictionary lookups instead of `if`-`return` chains\r\n    * [ ] tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * [x] commits to `scripts/gymnastics.js`\r\n  * [ ] commits to `apis/github/users/USERNAME/events.json`\r\n* [x] PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * [ ] with 2x :+1:'s from peers"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71732684",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/168#issuecomment-71732684",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "id": 71732684,
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T21:35:36Z",
+        "updated_at": "2015-01-27T21:35:36Z",
+        "body": "Total Events: 30\r\nPushEvents: 14"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T21:35:36Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540306235",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "id": 55658352,
+        "number": 168,
+        "title": "14 -- Hello Lodash -- Maddie Fees",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-27T18:50:33Z",
+        "updated_at": "2015-01-27T20:54:14Z",
+        "closed_at": null,
+        "body": "## Deliverables\r\n\r\n* [ ] _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * [x] link to your PR from your _WIP Branch_ to `master`\r\n  * [ ] comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n* [ ] _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * [ ] `scripts/check-writing.js`\r\n    * [ ] using array lookups instead of `if`-`return` chains\r\n    * [ ] tests covering up to `20`\r\n  * [ ] `scripts/string-calculator.js`\r\n    * [ ] using dictionary lookups instead of `if`-`return` chains\r\n    * [ ] tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * [x] commits to `scripts/gymnastics.js`\r\n  * [ ] commits to `apis/github/users/USERNAME/events.json`\r\n* [x] PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * [ ] with 2x :+1:'s from peers"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71725746",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/168#issuecomment-71725746",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "id": 71725746,
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T20:54:14Z",
+        "updated_at": "2015-01-27T20:54:14Z",
+        "body": "https://github.com/mfees/TIY-Assignments/pull/17"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:54:14Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540294255",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557778764,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "3bf20c0685b46c78966efe26b937c4938d387d80",
+      "before": "b82fc6f75dd29d3153fc4b94af280b04c4d0a36d",
+      "commits": [
+        {
+          "sha": "3bf20c0685b46c78966efe26b937c4938d387d80",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "pushevents found",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/3bf20c0685b46c78966efe26b937c4938d387d80"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:49:03Z"
+  },
+  {
+    "id": "2540219975",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557749100,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "b82fc6f75dd29d3153fc4b94af280b04c4d0a36d",
+      "before": "6d9e3cd52a1255cdf5422aaa70c788cd74600a31",
+      "commits": [
+        {
+          "sha": "b82fc6f75dd29d3153fc4b94af280b04c4d0a36d",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "working together as a group in perfect harmony, soooo much love",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/b82fc6f75dd29d3153fc4b94af280b04c4d0a36d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:17:32Z"
+  },
+  {
+    "id": "2540109102",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557705403,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "6d9e3cd52a1255cdf5422aaa70c788cd74600a31",
+      "before": "aabbf569c8c93eaefdf4d17b458b80caf298365f",
+      "commits": [
+        {
+          "sha": "6d9e3cd52a1255cdf5422aaa70c788cd74600a31",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "fixing string calc, coming back to it later",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/6d9e3cd52a1255cdf5422aaa70c788cd74600a31"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T19:33:20Z"
+  },
+  {
+    "id": "2540019952",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 17,
+      "pull_request": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/17",
+        "id": 28134606,
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/17",
+        "diff_url": "https://github.com/mfees/TIY-Assignments/pull/17.diff",
+        "patch_url": "https://github.com/mfees/TIY-Assignments/pull/17.patch",
+        "issue_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/17",
+        "number": 17,
+        "state": "open",
+        "locked": false,
+        "title": "PR feature/14--hello-lodash",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "created_at": "2015-01-27T18:57:37Z",
+        "updated_at": "2015-01-27T18:57:37Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "a199dc3b9163fb6f3c8d7bc269f4d7fccc8405f3",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/17/commits",
+        "review_comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/17/comments",
+        "review_comment_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/17/comments",
+        "statuses_url": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/aabbf569c8c93eaefdf4d17b458b80caf298365f",
+        "head": {
+          "label": "mfees:feature/14--hello-lodash",
+          "ref": "feature/14--hello-lodash",
+          "sha": "aabbf569c8c93eaefdf4d17b458b80caf298365f",
+          "user": {
+            "login": "mfees",
+            "id": 10180909,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mfees",
+            "html_url": "https://github.com/mfees",
+            "followers_url": "https://api.github.com/users/mfees/followers",
+            "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+            "organizations_url": "https://api.github.com/users/mfees/orgs",
+            "repos_url": "https://api.github.com/users/mfees/repos",
+            "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mfees/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28676079,
+            "name": "TIY-Assignments",
+            "full_name": "mfees/TIY-Assignments",
+            "owner": {
+              "login": "mfees",
+              "id": 10180909,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/mfees",
+              "html_url": "https://github.com/mfees",
+              "followers_url": "https://api.github.com/users/mfees/followers",
+              "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+              "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+              "organizations_url": "https://api.github.com/users/mfees/orgs",
+              "repos_url": "https://api.github.com/users/mfees/repos",
+              "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/mfees/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/mfees/TIY-Assignments",
+            "description": "Assigments yo!",
+            "fork": false,
+            "url": "https://api.github.com/repos/mfees/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/mfees/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/mfees/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/mfees/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/mfees/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/mfees/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/mfees/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/mfees/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/mfees/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/mfees/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/mfees/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/mfees/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/mfees/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/mfees/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/mfees/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/mfees/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/mfees/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/mfees/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/mfees/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/mfees/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/mfees/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T22:05:07Z",
+            "updated_at": "2015-01-27T18:48:24Z",
+            "pushed_at": "2015-01-27T18:56:50Z",
+            "git_url": "git://github.com/mfees/TIY-Assignments.git",
+            "ssh_url": "git@github.com:mfees/TIY-Assignments.git",
+            "clone_url": "https://github.com/mfees/TIY-Assignments.git",
+            "svn_url": "https://github.com/mfees/TIY-Assignments",
+            "homepage": null,
+            "size": 13248,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "mfees:master",
+          "ref": "master",
+          "sha": "7ec7a39fb9f4246e40b3e01abb5f66fd2552501a",
+          "user": {
+            "login": "mfees",
+            "id": 10180909,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mfees",
+            "html_url": "https://github.com/mfees",
+            "followers_url": "https://api.github.com/users/mfees/followers",
+            "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+            "organizations_url": "https://api.github.com/users/mfees/orgs",
+            "repos_url": "https://api.github.com/users/mfees/repos",
+            "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mfees/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28676079,
+            "name": "TIY-Assignments",
+            "full_name": "mfees/TIY-Assignments",
+            "owner": {
+              "login": "mfees",
+              "id": 10180909,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/mfees",
+              "html_url": "https://github.com/mfees",
+              "followers_url": "https://api.github.com/users/mfees/followers",
+              "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+              "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+              "organizations_url": "https://api.github.com/users/mfees/orgs",
+              "repos_url": "https://api.github.com/users/mfees/repos",
+              "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/mfees/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/mfees/TIY-Assignments",
+            "description": "Assigments yo!",
+            "fork": false,
+            "url": "https://api.github.com/repos/mfees/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/mfees/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/mfees/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/mfees/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/mfees/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/mfees/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/mfees/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/mfees/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/mfees/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/mfees/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/mfees/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/mfees/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/mfees/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/mfees/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/mfees/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/mfees/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/mfees/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/mfees/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/mfees/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/mfees/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/mfees/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T22:05:07Z",
+            "updated_at": "2015-01-27T18:48:24Z",
+            "pushed_at": "2015-01-27T18:56:50Z",
+            "git_url": "git://github.com/mfees/TIY-Assignments.git",
+            "ssh_url": "git@github.com:mfees/TIY-Assignments.git",
+            "clone_url": "https://github.com/mfees/TIY-Assignments.git",
+            "svn_url": "https://github.com/mfees/TIY-Assignments",
+            "homepage": null,
+            "size": 13248,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/17"
+          },
+          "html": {
+            "href": "https://github.com/mfees/TIY-Assignments/pull/17"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/issues/17"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/issues/17/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/17/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/17/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/aabbf569c8c93eaefdf4d17b458b80caf298365f"
+          }
+        },
+        "merged": false,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 4,
+        "deletions": 2,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:57:38Z"
+  },
+  {
+    "id": "2540017944",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/14--hello-lodash",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Assigments yo!",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:56:50Z"
+  },
+  {
+    "id": "2540002803",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/168/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/168",
+        "id": 55658352,
+        "number": 168,
+        "title": "14 -- Hello Lodash -- Maddie Fees",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-27T18:50:33Z",
+        "updated_at": "2015-01-27T18:50:33Z",
+        "closed_at": null,
+        "body": ""
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:50:33Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2539998041",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/13--lists+dicts",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:48:45Z"
+  },
+  {
+    "id": "2539997211",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557661064,
+      "size": 19,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "7ec7a39fb9f4246e40b3e01abb5f66fd2552501a",
+      "before": "1efba34d47a2ad918aa688bf8d988f4cfb4511ee",
+      "commits": [
+        {
+          "sha": "752bbac9817eb903beef3c7a2774d41aabf71ca9",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "adding json file and gymnastics file to main directory",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/752bbac9817eb903beef3c7a2774d41aabf71ca9"
+        },
+        {
+          "sha": "6c830d24b2d8425e183ef4665ad1a8c9dc9e196f",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "adding json file to api directory",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/6c830d24b2d8425e183ef4665ad1a8c9dc9e196f"
+        },
+        {
+          "sha": "0387cb09ae0042ba51a37313e96a9bc36c28dba5",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "rewriting check writing js, messed it up yesterday",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/0387cb09ae0042ba51a37313e96a9bc36c28dba5"
+        },
+        {
+          "sha": "12b4db79263216fb2f5cf39e27104ee156f4e4b6",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "taking a picture, makin dat flow chart extra flowy",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/12b4db79263216fb2f5cf39e27104ee156f4e4b6"
+        },
+        {
+          "sha": "b5aa112743a9139cb94cbf0ec347445a00f3b9a8",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "redoing check writing with array",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/b5aa112743a9139cb94cbf0ec347445a00f3b9a8"
+        },
+        {
+          "sha": "92e1d666c355d687dcebed4fe45243a855f41882",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "deleting dat dead code yo",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/92e1d666c355d687dcebed4fe45243a855f41882"
+        },
+        {
+          "sha": "dd0d6f86ac73d9cffdc41d6fae79ec566fb8f7ac",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "making assert false to check if function is working",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/dd0d6f86ac73d9cffdc41d6fae79ec566fb8f7ac"
+        },
+        {
+          "sha": "1b2323e80347bcd4d4056b6fffac81eb2a730f5d",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "this is about as far as I could go, plus, left my computer charger at school, lovely",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/1b2323e80347bcd4d4056b6fffac81eb2a730f5d"
+        },
+        {
+          "sha": "8d6443e0cde4947d3f9edd1524f615273f876ff7",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "clearing out all that dea code from string calc file",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/8d6443e0cde4947d3f9edd1524f615273f876ff7"
+        },
+        {
+          "sha": "d10a3bbfda63bd9e20bcca37361b3e06680f25e1",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "addes require statement and made sure it was linking to the correct file",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/d10a3bbfda63bd9e20bcca37361b3e06680f25e1"
+        },
+        {
+          "sha": "036d8589fd1402fbc58b2c3675d986523e0ab254",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "iteration foreach documented",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/036d8589fd1402fbc58b2c3675d986523e0ab254"
+        },
+        {
+          "sha": "44808b2287e8347e1e720243699206b5babcb9a2",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "interation some added to documentation",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/44808b2287e8347e1e720243699206b5babcb9a2"
+        },
+        {
+          "sha": "4b03abd85db436536210ab6ec6f0e6dbe0bcac7a",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "iteration filter added to documentation",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/4b03abd85db436536210ab6ec6f0e6dbe0bcac7a"
+        },
+        {
+          "sha": "fe55da943281ce7c3874938b427519dd3c7f86de",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "adding interation map to documentation",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/fe55da943281ce7c3874938b427519dd3c7f86de"
+        },
+        {
+          "sha": "ff8620f4df934a0caf4f5eb8d45ed4a4f0b74df1",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "adding iteration reduce to documentation",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/ff8620f4df934a0caf4f5eb8d45ed4a4f0b74df1"
+        },
+        {
+          "sha": "b4dc4f54c4cf1f3fa6d8962cda074f0891f1c73c",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "I didn't know I made any changes here, commiting and pushing just in case",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/b4dc4f54c4cf1f3fa6d8962cda074f0891f1c73c"
+        },
+        {
+          "sha": "9d183499c75922a1651e06e368783e46fcb5fd6a",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "notes from class on apishiz",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/9d183499c75922a1651e06e368783e46fcb5fd6a"
+        },
+        {
+          "sha": "f211a3ce4bd5c90ae776b7d0db6f89c121891cfe",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "notes from class on string calc",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/f211a3ce4bd5c90ae776b7d0db6f89c121891cfe"
+        },
+        {
+          "sha": "7ec7a39fb9f4246e40b3e01abb5f66fd2552501a",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "trying to keep up with notes from class on api gymnastics, gave up eventually",
+          "distinct": false,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/7ec7a39fb9f4246e40b3e01abb5f66fd2552501a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:48:24Z"
+  },
+  {
+    "id": "2539997207",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 16,
+      "pull_request": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/16",
+        "id": 28056729,
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/16",
+        "diff_url": "https://github.com/mfees/TIY-Assignments/pull/16.diff",
+        "patch_url": "https://github.com/mfees/TIY-Assignments/pull/16.patch",
+        "issue_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/16",
+        "number": 16,
+        "state": "closed",
+        "locked": false,
+        "title": "PR for feature13/--lists+dicts",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/156",
+        "created_at": "2015-01-26T20:18:05Z",
+        "updated_at": "2015-01-27T18:48:24Z",
+        "closed_at": "2015-01-27T18:48:24Z",
+        "merged_at": "2015-01-27T18:48:24Z",
+        "merge_commit_sha": "f6df7f2191a8e81473ed4415fbdab337f1f2ccb7",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/16/commits",
+        "review_comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/16/comments",
+        "review_comment_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/16/comments",
+        "statuses_url": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/7ec7a39fb9f4246e40b3e01abb5f66fd2552501a",
+        "head": {
+          "label": "mfees:feature/13--lists+dicts",
+          "ref": "feature/13--lists+dicts",
+          "sha": "7ec7a39fb9f4246e40b3e01abb5f66fd2552501a",
+          "user": {
+            "login": "mfees",
+            "id": 10180909,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mfees",
+            "html_url": "https://github.com/mfees",
+            "followers_url": "https://api.github.com/users/mfees/followers",
+            "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+            "organizations_url": "https://api.github.com/users/mfees/orgs",
+            "repos_url": "https://api.github.com/users/mfees/repos",
+            "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mfees/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28676079,
+            "name": "TIY-Assignments",
+            "full_name": "mfees/TIY-Assignments",
+            "owner": {
+              "login": "mfees",
+              "id": 10180909,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/mfees",
+              "html_url": "https://github.com/mfees",
+              "followers_url": "https://api.github.com/users/mfees/followers",
+              "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+              "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+              "organizations_url": "https://api.github.com/users/mfees/orgs",
+              "repos_url": "https://api.github.com/users/mfees/repos",
+              "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/mfees/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/mfees/TIY-Assignments",
+            "description": "Assigments yo!",
+            "fork": false,
+            "url": "https://api.github.com/repos/mfees/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/mfees/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/mfees/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/mfees/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/mfees/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/mfees/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/mfees/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/mfees/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/mfees/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/mfees/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/mfees/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/mfees/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/mfees/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/mfees/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/mfees/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/mfees/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/mfees/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/mfees/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/mfees/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/mfees/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/mfees/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T22:05:07Z",
+            "updated_at": "2015-01-26T19:47:49Z",
+            "pushed_at": "2015-01-27T18:48:24Z",
+            "git_url": "git://github.com/mfees/TIY-Assignments.git",
+            "ssh_url": "git@github.com:mfees/TIY-Assignments.git",
+            "clone_url": "https://github.com/mfees/TIY-Assignments.git",
+            "svn_url": "https://github.com/mfees/TIY-Assignments",
+            "homepage": null,
+            "size": 13248,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "mfees:master",
+          "ref": "master",
+          "sha": "1efba34d47a2ad918aa688bf8d988f4cfb4511ee",
+          "user": {
+            "login": "mfees",
+            "id": 10180909,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mfees",
+            "html_url": "https://github.com/mfees",
+            "followers_url": "https://api.github.com/users/mfees/followers",
+            "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+            "organizations_url": "https://api.github.com/users/mfees/orgs",
+            "repos_url": "https://api.github.com/users/mfees/repos",
+            "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mfees/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28676079,
+            "name": "TIY-Assignments",
+            "full_name": "mfees/TIY-Assignments",
+            "owner": {
+              "login": "mfees",
+              "id": 10180909,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/mfees",
+              "html_url": "https://github.com/mfees",
+              "followers_url": "https://api.github.com/users/mfees/followers",
+              "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+              "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+              "organizations_url": "https://api.github.com/users/mfees/orgs",
+              "repos_url": "https://api.github.com/users/mfees/repos",
+              "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/mfees/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/mfees/TIY-Assignments",
+            "description": "Assigments yo!",
+            "fork": false,
+            "url": "https://api.github.com/repos/mfees/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/mfees/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/mfees/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/mfees/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/mfees/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/mfees/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/mfees/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/mfees/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/mfees/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/mfees/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/mfees/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/mfees/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/mfees/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/mfees/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/mfees/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/mfees/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/mfees/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/mfees/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/mfees/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/mfees/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/mfees/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/mfees/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/mfees/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T22:05:07Z",
+            "updated_at": "2015-01-26T19:47:49Z",
+            "pushed_at": "2015-01-27T18:48:24Z",
+            "git_url": "git://github.com/mfees/TIY-Assignments.git",
+            "ssh_url": "git@github.com:mfees/TIY-Assignments.git",
+            "clone_url": "https://github.com/mfees/TIY-Assignments.git",
+            "svn_url": "https://github.com/mfees/TIY-Assignments",
+            "homepage": null,
+            "size": 13248,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/16"
+          },
+          "html": {
+            "href": "https://github.com/mfees/TIY-Assignments/pull/16"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/issues/16"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/issues/16/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/16/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/16/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/mfees/TIY-Assignments/statuses/7ec7a39fb9f4246e40b3e01abb5f66fd2552501a"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 3,
+        "review_comments": 0,
+        "commits": 19,
+        "additions": 3337,
+        "deletions": 199,
+        "changed_files": 6
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:48:24Z"
+  },
+  {
+    "id": "2539993724",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557659721,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "7ec7a39fb9f4246e40b3e01abb5f66fd2552501a",
+      "before": "f211a3ce4bd5c90ae776b7d0db6f89c121891cfe",
+      "commits": [
+        {
+          "sha": "7ec7a39fb9f4246e40b3e01abb5f66fd2552501a",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "trying to keep up with notes from class on api gymnastics, gave up eventually",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/7ec7a39fb9f4246e40b3e01abb5f66fd2552501a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:46:59Z"
+  },
+  {
+    "id": "2539631123",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557514801,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "f211a3ce4bd5c90ae776b7d0db6f89c121891cfe",
+      "before": "9d183499c75922a1651e06e368783e46fcb5fd6a",
+      "commits": [
+        {
+          "sha": "f211a3ce4bd5c90ae776b7d0db6f89c121891cfe",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "notes from class on string calc",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/f211a3ce4bd5c90ae776b7d0db6f89c121891cfe"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T16:30:02Z"
+  },
+  {
+    "id": "2539625544",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12",
+        "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/labels{/name}",
+        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/comments",
+        "events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/events",
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12",
+        "id": 55531024,
+        "number": 12,
+        "title": "lists + dicts",
+        "user": {
+          "login": "carolinapowers",
+          "id": 10137641,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/carolinapowers",
+          "html_url": "https://github.com/carolinapowers",
+          "followers_url": "https://api.github.com/users/carolinapowers/followers",
+          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
+          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
+          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
+          "repos_url": "https://api.github.com/users/carolinapowers/repos",
+          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-26T20:12:10Z",
+        "updated_at": "2015-01-27T16:28:09Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12",
+          "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12",
+          "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.diff",
+          "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/comments/71677838",
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12#issuecomment-71677838",
+        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12",
+        "id": 71677838,
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T16:28:09Z",
+        "updated_at": "2015-01-27T16:28:09Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T16:28:09Z"
+  },
+  {
+    "id": "2539572604",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28105106,
+      "name": "eklemen/TIY-Assignments",
+      "url": "https://api.github.com/repos/eklemen/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/12",
+        "labels_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/12/labels{/name}",
+        "comments_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/12/comments",
+        "events_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/12/events",
+        "html_url": "https://github.com/eklemen/TIY-Assignments/pull/12",
+        "id": 55535500,
+        "number": 12,
+        "title": "Feature/13  lists+dicts",
+        "user": {
+          "login": "eklemen",
+          "id": 10147000,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10147000?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/eklemen",
+          "html_url": "https://github.com/eklemen",
+          "followers_url": "https://api.github.com/users/eklemen/followers",
+          "following_url": "https://api.github.com/users/eklemen/following{/other_user}",
+          "gists_url": "https://api.github.com/users/eklemen/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/eklemen/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/eklemen/subscriptions",
+          "organizations_url": "https://api.github.com/users/eklemen/orgs",
+          "repos_url": "https://api.github.com/users/eklemen/repos",
+          "events_url": "https://api.github.com/users/eklemen/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/eklemen/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-26T20:50:16Z",
+        "updated_at": "2015-01-27T16:10:00Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/eklemen/TIY-Assignments/pulls/12",
+          "html_url": "https://github.com/eklemen/TIY-Assignments/pull/12",
+          "diff_url": "https://github.com/eklemen/TIY-Assignments/pull/12.diff",
+          "patch_url": "https://github.com/eklemen/TIY-Assignments/pull/12.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/comments/71674222",
+        "html_url": "https://github.com/eklemen/TIY-Assignments/pull/12#issuecomment-71674222",
+        "issue_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/12",
+        "id": 71674222,
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T16:10:00Z",
+        "updated_at": "2015-01-27T16:10:00Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T16:10:01Z"
+  },
+  {
+    "id": "2539562153",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16",
+        "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16/comments",
+        "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16/events",
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16",
+        "id": 55568686,
+        "number": 16,
+        "title": "ALWAYS COMING FROM TAKE ME DOWN --- what are the opposites? :trollface:",
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-01-27T02:43:56Z",
+        "updated_at": "2015-01-27T16:06:20Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/16",
+          "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16",
+          "diff_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16.diff",
+          "patch_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/71673533",
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16#issuecomment-71673533",
+        "issue_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16",
+        "id": 71673533,
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T16:06:20Z",
+        "updated_at": "2015-01-27T16:06:20Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T16:06:20Z"
+  },
+  {
+    "id": "2539513653",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557466798,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "9d183499c75922a1651e06e368783e46fcb5fd6a",
+      "before": "b4dc4f54c4cf1f3fa6d8962cda074f0891f1c73c",
+      "commits": [
+        {
+          "sha": "9d183499c75922a1651e06e368783e46fcb5fd6a",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "notes from class on apishiz",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/9d183499c75922a1651e06e368783e46fcb5fd6a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T15:49:44Z"
+  },
+  {
+    "id": "2538226447",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556931417,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "b4dc4f54c4cf1f3fa6d8962cda074f0891f1c73c",
+      "before": "ff8620f4df934a0caf4f5eb8d45ed4a4f0b74df1",
+      "commits": [
+        {
+          "sha": "b4dc4f54c4cf1f3fa6d8962cda074f0891f1c73c",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "I didn't know I made any changes here, commiting and pushing just in case",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/b4dc4f54c4cf1f3fa6d8962cda074f0891f1c73c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T03:30:19Z"
+  },
+  {
+    "id": "2538213932",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556926243,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "ff8620f4df934a0caf4f5eb8d45ed4a4f0b74df1",
+      "before": "fe55da943281ce7c3874938b427519dd3c7f86de",
+      "commits": [
+        {
+          "sha": "ff8620f4df934a0caf4f5eb8d45ed4a4f0b74df1",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "adding iteration reduce to documentation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/ff8620f4df934a0caf4f5eb8d45ed4a4f0b74df1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T03:19:58Z"
+  },
+  {
+    "id": "2538205790",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556922909,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "fe55da943281ce7c3874938b427519dd3c7f86de",
+      "before": "4b03abd85db436536210ab6ec6f0e6dbe0bcac7a",
+      "commits": [
+        {
+          "sha": "fe55da943281ce7c3874938b427519dd3c7f86de",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "adding interation map to documentation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/fe55da943281ce7c3874938b427519dd3c7f86de"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T03:13:34Z"
+  },
+  {
+    "id": "2538197461",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556919548,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "4b03abd85db436536210ab6ec6f0e6dbe0bcac7a",
+      "before": "036d8589fd1402fbc58b2c3675d986523e0ab254",
+      "commits": [
+        {
+          "sha": "44808b2287e8347e1e720243699206b5babcb9a2",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "interation some added to documentation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/44808b2287e8347e1e720243699206b5babcb9a2"
+        },
+        {
+          "sha": "4b03abd85db436536210ab6ec6f0e6dbe0bcac7a",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "iteration filter added to documentation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/4b03abd85db436536210ab6ec6f0e6dbe0bcac7a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T03:06:58Z"
+  },
+  {
+    "id": "2538183121",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556913666,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "036d8589fd1402fbc58b2c3675d986523e0ab254",
+      "before": "d10a3bbfda63bd9e20bcca37361b3e06680f25e1",
+      "commits": [
+        {
+          "sha": "036d8589fd1402fbc58b2c3675d986523e0ab254",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "iteration foreach documented",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/036d8589fd1402fbc58b2c3675d986523e0ab254"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T02:55:48Z"
+  },
+  {
+    "id": "2538150978",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556900934,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "d10a3bbfda63bd9e20bcca37361b3e06680f25e1",
+      "before": "8d6443e0cde4947d3f9edd1524f615273f876ff7",
+      "commits": [
+        {
+          "sha": "d10a3bbfda63bd9e20bcca37361b3e06680f25e1",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "addes require statement and made sure it was linking to the correct file",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/d10a3bbfda63bd9e20bcca37361b3e06680f25e1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T02:31:35Z"
+  },
+  {
+    "id": "2538035440",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556856595,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "8d6443e0cde4947d3f9edd1524f615273f876ff7",
+      "before": "1b2323e80347bcd4d4056b6fffac81eb2a730f5d",
+      "commits": [
+        {
+          "sha": "8d6443e0cde4947d3f9edd1524f615273f876ff7",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "clearing out all that dea code from string calc file",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/8d6443e0cde4947d3f9edd1524f615273f876ff7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T01:14:46Z"
+  },
+  {
+    "id": "2538032193",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556855401,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "1b2323e80347bcd4d4056b6fffac81eb2a730f5d",
+      "before": "dd0d6f86ac73d9cffdc41d6fae79ec566fb8f7ac",
+      "commits": [
+        {
+          "sha": "1b2323e80347bcd4d4056b6fffac81eb2a730f5d",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "this is about as far as I could go, plus, left my computer charger at school, lovely",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/1b2323e80347bcd4d4056b6fffac81eb2a730f5d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T01:12:47Z"
+  }
+]
