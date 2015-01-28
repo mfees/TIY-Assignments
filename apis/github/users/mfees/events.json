@@ -1,5 +1,119 @@
 [
   {
+    "id": "2541001204",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558058827,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "4b7eda7803f81d6e61848420d54b2eec5fbe3554",
+      "before": "cb45750f62651f3d634fb0c3866765cecfb76fad",
+      "commits": [
+        {
+          "sha": "4b7eda7803f81d6e61848420d54b2eec5fbe3554",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "string calculator tests, all the tests from 0 to 0 thru 10 to 10",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/4b7eda7803f81d6e61848420d54b2eec5fbe3554"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:45:31Z"
+  },
+  {
+    "id": "2540953257",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558039702,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "cb45750f62651f3d634fb0c3866765cecfb76fad",
+      "before": "4667dac90a91bdb3c757263ddcb40afb0303f745",
+      "commits": [
+        {
+          "sha": "cb45750f62651f3d634fb0c3866765cecfb76fad",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "removing dead code from gymnastics",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/cb45750f62651f3d634fb0c3866765cecfb76fad"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:11:15Z"
+  },
+  {
+    "id": "2540950067",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10180909,
+      "login": "mfees",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558038460,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--hello-lodash",
+      "head": "4667dac90a91bdb3c757263ddcb40afb0303f745",
+      "before": "07ba0a7620c132e414c10733e8368e5c32387781",
+      "commits": [
+        {
+          "sha": "4667dac90a91bdb3c757263ddcb40afb0303f745",
+          "author": {
+            "email": "madison.fees90@gmail.com",
+            "name": "Maddie Fees"
+          },
+          "message": "I'm an idiot, oops, forgot to change USERNAME... bad maddie",
+          "distinct": true,
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/4667dac90a91bdb3c757263ddcb40afb0303f745"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:09:02Z"
+  },
+  {
     "id": "2540946760",
     "type": "PushEvent",
     "actor": {
@@ -2099,119 +2213,5 @@
     },
     "public": true,
     "created_at": "2015-01-27T02:55:48Z"
-  },
-  {
-    "id": "2538150978",
-    "type": "PushEvent",
-    "actor": {
-      "id": 10180909,
-      "login": "mfees",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/mfees",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
-    },
-    "repo": {
-      "id": 28676079,
-      "name": "mfees/TIY-Assignments",
-      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
-    },
-    "payload": {
-      "push_id": 556900934,
-      "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "d10a3bbfda63bd9e20bcca37361b3e06680f25e1",
-      "before": "8d6443e0cde4947d3f9edd1524f615273f876ff7",
-      "commits": [
-        {
-          "sha": "d10a3bbfda63bd9e20bcca37361b3e06680f25e1",
-          "author": {
-            "email": "madison.fees90@gmail.com",
-            "name": "Maddie Fees"
-          },
-          "message": "addes require statement and made sure it was linking to the correct file",
-          "distinct": true,
-          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/d10a3bbfda63bd9e20bcca37361b3e06680f25e1"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2015-01-27T02:31:35Z"
-  },
-  {
-    "id": "2538035440",
-    "type": "PushEvent",
-    "actor": {
-      "id": 10180909,
-      "login": "mfees",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/mfees",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
-    },
-    "repo": {
-      "id": 28676079,
-      "name": "mfees/TIY-Assignments",
-      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
-    },
-    "payload": {
-      "push_id": 556856595,
-      "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "8d6443e0cde4947d3f9edd1524f615273f876ff7",
-      "before": "1b2323e80347bcd4d4056b6fffac81eb2a730f5d",
-      "commits": [
-        {
-          "sha": "8d6443e0cde4947d3f9edd1524f615273f876ff7",
-          "author": {
-            "email": "madison.fees90@gmail.com",
-            "name": "Maddie Fees"
-          },
-          "message": "clearing out all that dea code from string calc file",
-          "distinct": true,
-          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/8d6443e0cde4947d3f9edd1524f615273f876ff7"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2015-01-27T01:14:46Z"
-  },
-  {
-    "id": "2538032193",
-    "type": "PushEvent",
-    "actor": {
-      "id": 10180909,
-      "login": "mfees",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/mfees",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10180909?"
-    },
-    "repo": {
-      "id": 28676079,
-      "name": "mfees/TIY-Assignments",
-      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
-    },
-    "payload": {
-      "push_id": 556855401,
-      "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "1b2323e80347bcd4d4056b6fffac81eb2a730f5d",
-      "before": "dd0d6f86ac73d9cffdc41d6fae79ec566fb8f7ac",
-      "commits": [
-        {
-          "sha": "1b2323e80347bcd4d4056b6fffac81eb2a730f5d",
-          "author": {
-            "email": "madison.fees90@gmail.com",
-            "name": "Maddie Fees"
-          },
-          "message": "this is about as far as I could go, plus, left my computer charger at school, lovely",
-          "distinct": true,
-          "url": "https://api.github.com/repos/mfees/TIY-Assignments/commits/1b2323e80347bcd4d4056b6fffac81eb2a730f5d"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2015-01-27T01:12:47Z"
   }
 ]
