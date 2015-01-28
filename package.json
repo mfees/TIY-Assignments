@@ -1,0 +1,26 @@
+{
+  "name": "TIY-Assignments",
+  "version": "1.0.0",
+  "description": "The Iron Yard Orlando personal assignment repository",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "lodash": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfees/TIY-Assignments.git"
+  },
+  "author": "Maddie Fees <madison.fees90@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/mfees/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/mfees/TIY-Assignments"
+}
