@@ -36,9 +36,11 @@ var theAnswer = answer()
 
     it ('should return the length when calling answer function', function () {
         assert.equal(theAnswer.total, 30);
+        assert.equal(theAnswer.total, events.length);
     });
 
     it ('should have "PushEvent"', function () {
         assert(theAnswer.PushEvent);
-        assert(theAnswer.PushEvent.total);
+        assert(typeof theAnswer.PushEvent, 'object');
+        assert(typeof theAnswer.PushEvent.total, 'number');
     });
