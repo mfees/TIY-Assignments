@@ -32,12 +32,23 @@ function plus(A, B) {
     return numbers[A] + numbers[B];
 } // END plus
 
-it ('should have a plus function', function () {
+/*it ('should have a plus function', function () {
     assert(plus);
     assert.equal(typeof plus, 'function');
-});
+});*/
 
-it ('should return a "zero" equal number 0', function () {
+var numbers = ["zero", "one", "two"];
+
+for (var i = 0; i < numbers.length; i++) {
+    //plus(numbers[i], numbers[i]);
+    console.log(numbers[i]);
+    
+    for (var ii = 0; ii < numbers.length; ii++) {
+        console.log(numbers[ii]);
+    };
+};
+
+/*it ('should return a "zero" equal number 0', function () {
     assert.equal(plus("zero", "zero"), 0);
     assert.equal(plus("zero", "one"), 1);
     assert.equal(plus("zero", "two"), 2);
@@ -49,5 +60,5 @@ it ('should return a "zero" equal number 0', function () {
     assert.equal(plus("zero", "eight"), 8);
     assert.equal(plus("zero", "nine"), 9);
     assert.equal(plus("zero", "ten"), 10);
-});
+});*/
 
