@@ -2,23 +2,6 @@ var assert = require('assert');
 
 console.log(Date());
 
-function plus(A, B) {
-});
-
-
-/*console.log(Date());
-
-it ('should have a plus function', function () {
-    assert(plus);
-    assert.equal(typeof plus, 'function');
-});
-
-it ('should add "zeros"', function () {
-    assert.equal(plus("zero", "zero"), 0);
-    assert.equal(plus("zero", "one"), 1);
-    assert.equal(plus("zero", "two"), 2);
-});
-
 /**
 Create a function called 'plus()' that accepts two 'Strings'
 representing English number words, e.g. "one", "two", "three",
@@ -30,9 +13,9 @@ assert.equal(plus("one", "one"), 2);
 @param String B English number word
 @return Number sum of A and B
 */
-/*
-function plus(A, B) {
-    var numbers = {
+
+function plus(A) {
+        var numbers = {
         "ten": 10,
         "nine": 9,
         "eight": 8,
@@ -44,8 +27,16 @@ function plus(A, B) {
         "two": 2,
         "one": 1,
         "zero": 0
-    };
-    
-        return numbers[B];
+    }
+        return numbers[A];
 } // END plus
-*/
+
+it ('should have a plus function', function () {
+    assert(plus);
+    assert.equal(typeof plus, 'function');
+});
+
+it ('should add "zeros"', function () {
+    assert.equal(plus("zero", "zero"), 0);
+    assert.equal(plus("zero", "three"), 0);
+});
