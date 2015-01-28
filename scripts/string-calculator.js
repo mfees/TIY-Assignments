@@ -15,6 +15,7 @@ assert.equal(plus("one", "one"), 2);
 */
 
 function plus(A, B) {
+        
     var numbers = {
         "ten": 10,
         "nine": 9,
@@ -28,37 +29,33 @@ function plus(A, B) {
         "one": 1,
         "zero": 0
     };
-
+        
     return numbers[A] + numbers[B];
 } // END plus
 
-/*it ('should have a plus function', function () {
+it ('should have a plus function', function () {
     assert(plus);
     assert.equal(typeof plus, 'function');
-});*/
+});
 
-var numbers = ["zero", "one", "two"];
+var numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+var answer;
 
-for (var i = 0; i < numbers.length; i++) {
-    //plus(numbers[i], numbers[i]);
-    console.log(numbers[i]);
-    
+for (var i = 0; i < numbers.length; i++) {    
     for (var ii = 0; ii < numbers.length; ii++) {
-        console.log(numbers[ii]);
+        
+        answer = i + ii;
+        
+//        if(plus(numbers[i], numbers[ii]) == answer) console.log('yay');
+//        else console.log('boo')
+        
+        it ('should return a "zero" equal number 0', function () {
+            assert.equal(plus(numbers[i], numbers[ii]), answer);
+        });
     };
 };
 
-/*it ('should return a "zero" equal number 0', function () {
-    assert.equal(plus("zero", "zero"), 0);
-    assert.equal(plus("zero", "one"), 1);
-    assert.equal(plus("zero", "two"), 2);
-    assert.equal(plus("zero", "three"), 3);
-    assert.equal(plus("zero", "four"), 4);
-    assert.equal(plus("zero", "five"), 5);
-    assert.equal(plus("zero", "six"), 6);
-    assert.equal(plus("zero", "seven"), 7);
-    assert.equal(plus("zero", "eight"), 8);
-    assert.equal(plus("zero", "nine"), 9);
-    assert.equal(plus("zero", "ten"), 10);
-});*/
+
+
+
 
