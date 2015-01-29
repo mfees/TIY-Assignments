@@ -28,45 +28,33 @@ The opposite of _.filter; this method returns the elements of collection that pr
         * a `String` is compared like [`_.property`](http://lodash.com/docs#property)
 * _returns:_
   * (Array): Returns the new filtered array.
+  
 ---
 
-### [`_.`]()
+### [`_.where(collection, source)`](https://lodash.com/docs#where)
+Performs a deep comparison between each element in collection and the source object, returning an array of all elements that have equivalent property values.
 
 * _params:_
-  * 
-  * 
-    * 
-      * 
-      * 
-    * 
-    * 
-  * 
+  * (Array|Object|string) collection to search
+  * (Object) object of property values to match
 * _returns:_
-  * 
-* _differences:_
-  * 
-  * 
-
+  * (Array): Returns the new filtered array.
+  
 ---
 
 
-### [`_.`]()
+### [`_.forEach(collection, [iteratee=_.identity], [thisArg])`](https://lodash.com/docs#forEach)
+Iterates over elements of collection invoking iteratee for each element. The iteratee is bound to thisArg and invoked with three arguments; (value, index|key, collection). Iterator functions may exit iteration early by explicitly returning false. 
 
 * _params:_
-  * 
-  * 
-    * 
-      * 
-      * 
-    * 
-    * 
-  * 
+  * (Array|Object|string) collection to iterate over
+  * (Function) [iteratee=_.identity]
+    * Invoked with three arguments:
+      * (value, index|key, collection)
+  * Functions may exit iteration early by explicitly returning fals
 * _returns:_
-  * 
-* _differences:_
-  * 
-  * 
-
+  * (Array|Object|string): Returns collection.
+  
 ---
 
 ### [`_.`]()
