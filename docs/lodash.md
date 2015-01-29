@@ -18,22 +18,16 @@
 ---
 
 ### [`_.reject(collection, [predicate=_.identity], [thisArg])`](https://lodash.com/docs#reject)
+The opposite of _.filter; this method returns the elements of collection that predicate does not return truthy for
 
 * _params:_
-  * 
-  * 
-    * 
-      * 
-      * 
-    * 
-    * 
-  * 
+  * (Array|Object|string) collection to iterate over
+  *  (Function|Object|string) predicate
+    * callback function
+        * an `Object` is compared like [`_.matches`](http://lodash.com/docs#matches)
+        * a `String` is compared like [`_.property`](http://lodash.com/docs#property)
 * _returns:_
-  * 
-* _differences:_
-  * 
-  * 
-
+  * (Array): Returns the new filtered array.
 ---
 
 ### [`_.`]()
