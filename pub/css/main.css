@@ -97,20 +97,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 1ex;
+}
+h2 > a {
+    color: blue;
+    text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+h2 > a::before {
+    content: '\2799';
+    color: gray;
+    display: inline-block;
+    padding-right: 1ex;
+    width: 1em;
+}
+h2 > a:hover::before {
+    content: '\2798';
+    color: blue;
+}
+article {
+    display: none;
+}
+.open {
+    display: block;
+}
 
 
 /* ==========================================================================
