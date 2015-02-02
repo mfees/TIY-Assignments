@@ -97,17 +97,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .main-container {
-    width: 80%;
+    width: 73%;
     margin: 0 auto;
 }
 
 h2 {
     border-bottom: 1px solid #ddd;
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    font-size: 3ex;
-    font-weight: 400;
-    padding-bottom: 1ex;
-    padding-top: 3ex;
+    font-size: 4.8ex;
+    font-weight: 300;
+    letter-spacing: 0.04ex;
+    padding-bottom: 0.1ex;
+    padding-top: 1.8ex;
+    margin-top: 0;
 }
 h2 > a {
     color: #47a3da;
@@ -118,8 +120,8 @@ h2 > a::before {
     content: '\2799';
     color: #ddd;
     display: inline-block;
-    padding-right: 1ex;
-    width: 1em;
+    padding-right: 1.5ex;
+    width: 0.5em;
 }
 h2 > a:hover::before {
     content: '\2798';
