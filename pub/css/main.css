@@ -101,6 +101,13 @@ textarea {
     margin: 0 auto;
 }
 
+p {
+    color: #888;
+    font-size: 2.3ex;
+    font-weight: lighter;
+    line-height: 3ex;
+}
+
 h2 {
     border-bottom: 1px solid #ddd;
     font-family: 'Lato', Calibri, Arial, sans-serif;
