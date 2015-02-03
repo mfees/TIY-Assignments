@@ -141,17 +141,21 @@ ul {
 }
 
 li {
-    color: #47a3da;
     font-family: 'Lato', Calibri, Arial, sans-serif;
     font-size: 2.3ex;
     font-weight: 600;
+    list-style: none;
     letter-spacing: 0.5ex;
     padding-bottom: 1ex;
     padding-top: .8ex;
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
-    list-style: none;
+}
+
+li a {
+    color: #47a3da;
+    text-decoration: none;
 }
 
 li::before {
@@ -166,6 +170,16 @@ li:hover::before {
     content: '\2798';
     color: #47a3da;
 }
+
+ul p {
+    display: none;
+}
+
+/*
+.reveal {
+    display: block;
+}
+*/
 
 article {
     display: none;

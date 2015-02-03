@@ -32,11 +32,21 @@
                 <p class="open">Jelly sweet roll dragée gummies. Jelly-o cotton candy gingerbread. Dessert tart bear claw gummi bears I love oat cake cotton candy sesame snaps carrot cake. Croissant marshmallow tiramisu icing soufflé chocolate cake. I love pie icing. Sweet I love sweet roll cheesecake dessert. Tiramisu gingerbread I love. Muffin chocolate cake powder cheesecake oat cake tootsie roll candy soufflé. Brownie toffee powder tiramisu. Wafer I love jujubes croissant. Chocolate cake candy jujubes tootsie roll bonbon toffee I love. Topping candy jelly-o. Halvah faworki I love I love toffee pastry icing chupa chups. Pie gingerbread candy canes oat cake.
                 </p>
                 <ul>
-                    <li>Donut Pastry</li>
+                    <li class="open">
+                        <a href="#">Donut Pastry</a>
+                    </li>
                         <p>Gingerbread cotton candy halvah gingerbread. Apple pie wypas liquorice I love chocolate cake I love. Jelly cotton candy wypas lemon drops. Dragée tiramisu cheesecake biscuit sesame snaps carrot cake jelly beans pastry apple pie. Chocolate cake cotton candy candy canes brownie ice cream. Muffin chocolate cake jelly-o cake pudding. Jujubes I love cookie. I love cupcake I love bear claw sweet croissant. Wypas bonbon chocolate cake bonbon bear claw gummies. Liquorice danish jelly tootsie roll. I love danish icing lemon drops dessert pie jujubes. Fruitcake wafer I love biscuit. Donut pastry apple pie sugar plum soufflé ice cream tart bonbon candy.
                         </p>
-                    <li>Carrot Cake</li>
-                    <li>Tootsie Roll Marshmellow</li>
+                    <li class="open">
+                        <a href="#">Carrot Cake</a>
+                    </li>
+                        <p>Wafer muffin cupcake apple pie tootsie roll I love. Carrot cake apple pie I love dessert. I love carrot cake lollipop jelly jelly-o brownie cake. Croissant brownie donut gingerbread dessert icing. Sugar plum jelly candy pudding liquorice liquorice cotton candy pie. Powder sesame snaps I love chocolate bar bonbon. Pudding gummi bears donut applicake carrot cake I love I love icing cake.
+                        </p>
+                    <li class="open">
+                        <a href="#">Tootsie Roll Marshmellow</a>
+                    </li>
+                        <p>I love tootsie roll marshmallow. Halvah jelly bear claw lemon drops lollipop. Brownie tiramisu I love I love halvah wafer. Powder jelly beans sesame snaps. Powder biscuit I love wypas soufflé apple pie marzipan. Cheesecake apple pie halvah croissant jelly I love.
+                        </p>
                 </ul>
             </article>
             <h2 class="open">
@@ -86,6 +96,16 @@
             h2s[0].onclick = showMe;
             h2s[1].onclick = showMe;
             h2s[2].onclick = showMe;
+            
+            function showMeAgain() {
+                this.nextElementSibling.className = "open";
+            }
+            
+            var ulp = document.getElementsByTagName('ul p');
+            
+            ulp[0].onclick = showMeAgain;
+            ulp[1].onclick = showMeAgain;
+            ulp[2].onclick = showMeAgain;
         </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
