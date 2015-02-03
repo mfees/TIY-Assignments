@@ -158,6 +158,13 @@ li a {
     text-decoration: none;
 }
 
+li p {
+    color: #888;
+    font-size: 2.3ex;
+    font-weight: lighter;
+    line-height: 3ex;
+}
+
 li::before {
     content: '\2799';
     color: #ddd;
@@ -171,21 +178,12 @@ li:hover::before {
     color: #47a3da;
 }
 
-ul p {
-    display: none;
-}
-
-/*
-.reveal {
-    display: block;
-}
-*/
-
-article {
-    display: none;
-}
 .open {
     display: block;
+}
+
+.closed {
+    display: none;
 }
 
 
