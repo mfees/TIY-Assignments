@@ -137,32 +137,26 @@ h2 > a:hover::before {
 }
 
 ul {
+    list-style: none;
     margin-left: 2em;
 }
 
 li {
+    padding-bottom: 2ex;
+}
+
+li a {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     font-size: 2.3ex;
     font-weight: 600;
-    list-style: none;
     letter-spacing: 0.5ex;
     padding-bottom: 1ex;
     padding-top: .8ex;
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
-}
-
-li a {
     color: #47a3da;
     text-decoration: none;
-}
-
-li p {
-    color: #888;
-    font-size: 2.3ex;
-    font-weight: lighter;
-    line-height: 3ex;
 }
 
 li::before {
