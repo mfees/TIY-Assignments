@@ -135,6 +135,38 @@ h2 > a:hover::before {
     content: '\2798';
     color: #47a3da;
 }
+
+ul {
+    margin-left: 2em;
+}
+
+li {
+    color: #47a3da;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 2.3ex;
+    font-weight: 600;
+    letter-spacing: 0.5ex;
+    padding-bottom: 1ex;
+    padding-top: .8ex;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+li::before {
+    content: '\2799';
+    color: #ddd;
+    display: inline-block;
+    padding-right: 1.5ex;
+    width: 0.5em;
+}
+
+li:hover::before {
+    content: '\2798';
+    color: #47a3da;
+}
+
 article {
     display: none;
 }
