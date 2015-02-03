@@ -125,14 +125,19 @@ h2 > a {
 }
 
 h2 > a::before {
-    content: '\2799';
+    content: '\2192';
     color: #ddd;
     display: inline-block;
     padding-right: 1.5ex;
     width: 0.5em;
 }
 h2 > a:hover::before {
-    content: '\2798';
+    content: '\2198';
+    color: #47a3da;
+}
+
+h2.open > a:hover:before {
+    content: '2193';
     color: #47a3da;
 }
 
