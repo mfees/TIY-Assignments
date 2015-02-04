@@ -120,12 +120,35 @@ body {
 
 /*Field Styles*/
 .text-field {
+    color: #10689a; 
+    background-color: #47a3da;
+    border: 3px solid white;
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+    padding: 0.5em;
 }
 
 .drop-down {
+    color: white;
+    background-color: #47a3da;
+    border: 1px solid rgb(166, 166, 166);
+    display: block;
+    width: 90%;
+    margin: .5em auto;
 }
 
 .text-block {
+    background-color: #47a3da;
+    border: 3px solid white;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.field-labels {
+    display: block;
+    width: 90%;
 }
 
 /* ==========================================================================
