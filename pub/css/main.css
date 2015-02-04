@@ -189,7 +189,7 @@ body {
 }
 
 .text-field {
-    background-color: #47a3da;
+    background-color: transparent;
     border: 3px solid white;
     display: block;
     width: 90%;
