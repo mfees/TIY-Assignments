@@ -97,21 +97,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+#container {
+    max-width: 90%;
+}
+*/
+body {
+    background-color: #47a3da;
+}
+
+/*Columns*/
+
+.column-one {
+}
+
+.column-two {
+}
+
+.column-three {
+}
 
 
+/*Field Styles*/
+.text-field {
+}
 
+.drop-down {
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.text-block {
+}
 
 /* ==========================================================================
    Helper classes
