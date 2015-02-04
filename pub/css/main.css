@@ -120,7 +120,7 @@ body {
 
 /*Field Styles*/
 #first_name, #last_name, #email {
-    background-color: #47a3da;
+    background-color: transparent;
     border: 3px solid white;
     display: block;
     width: 90%;
@@ -198,7 +198,7 @@ body {
 }
 
 .text-block {
-    background-color: #47a3da;
+    background-color: transparent;
     border: 3px solid white;
     width: 90%;
     display: block;
