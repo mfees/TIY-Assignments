@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -22,7 +22,24 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="main-container">
+            <form class="text-field">
+                <input type="textbox" value="Maddie" onfocus="if (this.value=='Maddie') this.value='';"/>
+                <input type="textbox" value="Fees" onfocus="if (this.value=='Fees') this.value='';"/>
+                <input type="email" value="mfees@gmail.com" onfocus="if (this.value=='mfees@gmail.com') this.value='';"/>
+            </form>
+
+            <select class="drop-down">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <textarea rows="4" cols="50" class="text-block">
+                At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+            </textarea>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
