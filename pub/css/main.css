@@ -119,8 +119,7 @@ body {
 
 
 /*Field Styles*/
-.text-field {
-    color: #10689a; 
+#first_name, #last_name, #email {
     background-color: #47a3da;
     border: 3px solid white;
     display: block;
@@ -128,6 +127,45 @@ body {
     margin: 1em auto;
     padding: 0.5em;
 }
+
+/*For the stupid input coloring*/
+#first_name::-webkit-input-placeholder {
+   color: #10689a;
+}
+#first_name:-moz-placeholder { /* Firefox 18- */
+   color: #10689a; 
+}
+#first_name::-moz-placeholder {  /* Firefox 19+ */
+   color: #10689a; 
+}
+#first_name:-ms-input-placeholder {  
+   color: #10689a; 
+}
+#last_name::-webkit-input-placeholder {
+   color: #10689a;
+}
+#last_name:-moz-placeholder { /* Firefox 18- */
+   color: #10689a; 
+}
+#last_name::-moz-placeholder {  /* Firefox 19+ */
+   color: #10689a; 
+}
+#last_name:-ms-input-placeholder {  
+   color: #10689a; 
+}
+#email::-webkit-input-placeholder {
+   color: #10689a;
+}
+#email:-moz-placeholder { /* Firefox 18- */
+   color: #10689a; 
+}
+#email::-moz-placeholder {  /* Firefox 19+ */
+   color: #10689a; 
+}
+#email:-ms-input-placeholder {  
+   color: #10689a; 
+}
+/*END stupid input coloring*/
 
 .drop-down {
     color: white;
@@ -146,9 +184,9 @@ body {
     margin: 0 auto;
 }
 
-.field-labels {
-    display: block;
-    width: 90%;
+label {
+    color: white;
+    text-transform: uppercase;
 }
 
 /* ==========================================================================
