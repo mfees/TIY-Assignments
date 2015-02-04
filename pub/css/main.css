@@ -165,6 +165,18 @@ body {
 #email:-ms-input-placeholder {  
    color: #10689a; 
 }
+.text-field::-webkit-input-placeholder {
+   color: #10689a;
+}
+.text-field:-moz-placeholder { /* Firefox 18- */
+   color: #10689a; 
+}
+.text-field::-moz-placeholder {  /* Firefox 19+ */
+   color: #10689a; 
+}
+.text-field:-ms-input-placeholder {  
+   color: #10689a; 
+}
 /*END stupid input coloring*/
 
 .drop-down {
@@ -174,6 +186,15 @@ body {
     display: block;
     width: 90%;
     margin: .5em auto;
+}
+
+.text-field {
+    background-color: #47a3da;
+    border: 3px solid white;
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+    padding: 0.5em;
 }
 
 .text-block {
