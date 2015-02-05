@@ -96,8 +96,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+ font-family: 'Helvetica', sans-serif;
+}
 
+h2 {
+    color: #666;
+    margin: 0;
+}
 
+.top-row {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+#container {
+    width 80%;
+}
+
+img.img-rounded {
+    width: 100%;
+}
+
+.main-panel {
+    border: none;
+    margin-top: 2em;
+}
+
+.panel-body {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.panel-body:last-child {
+    border-bottom: none;
+}
 
 /* ==========================================================================
    Helper classes
