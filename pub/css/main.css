@@ -97,15 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#container {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-}
-
-img {
-    width: 90%;
-    margin: 0 auto;
+h1 {
+    margin: .5ex 0;
 }
 
 h3 {
@@ -126,8 +119,24 @@ h4 {
     display: inline;
 }
 
-h4 p {
-    
+#container {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aboutme-info {
+    list-style: none;
+    padding: 0;
+}
+
+.aboutme-info p {
+    display: inline;
 }
 
 .repos {
