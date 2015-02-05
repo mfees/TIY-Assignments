@@ -139,6 +139,10 @@ img {
     display: inline;
 }
 
+.aboutme-info li span.octicons {
+    color: #ccc;
+}
+
 .repos {
     list-style: none;
     padding: 0;
@@ -147,18 +151,47 @@ img {
     margin-top: 0;
 }
 
+.tabs {
+font-size: 1.5em;
+text-align: center;
+/* border-bottom: 1px solid gray; // Will not buy again... */
+}
 
+.tabs > a {
+color: lightgray;
+border: 1px solid;
+text-decoration: none;
+}
 
+.tabs > a:hover {
+color: grey;
+}
 
+.tabs > a.active {
+ color: cornflowerblue;
+ border-bottom: none;
+ border-top-width: 3px;
+}
 
+.icon:before {
+font-size: 1.5em;
+}
 
+.icon-king:before {
+content: '\265a';
+}
 
+.icon-queen:before {
+content: '\265b';
+}
 
+.icon-rook:before {
+content: '\265c';
+}
 
-
-
-
-
+.icon-knight:before {
+content: '\265e';
+}
 
 /* ==========================================================================
    Helper classes
