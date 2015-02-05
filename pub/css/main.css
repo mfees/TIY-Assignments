@@ -96,6 +96,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Global and H styles*/
+
 body {
  font-family: 'Helvetica', sans-serif;
 }
@@ -112,18 +114,34 @@ h2 {
     margin: 0;
 }
 
-.top-row {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 2em;
-}
-
 #container {
     width 80%;
 }
 
+/*Global and H styles END*/
+
+
+/*Left Side*/
+
 img.img-rounded {
     width: 100%;
+}
+
+.side-bar p {
+    display: inline;
+    padding-left: 0.5em;
+}
+
+/*Left Side END*/
+
+
+
+/*Right Side*/
+
+.top-row {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
 }
 
 .main-panel {
@@ -138,6 +156,9 @@ img.img-rounded {
 .panel-body:last-child {
     border-bottom: none;
 }
+
+/*Right Side END*/
+
 
 /* ==========================================================================
    Helper classes
