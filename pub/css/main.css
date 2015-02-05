@@ -97,121 +97,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*
-#container {
-    max-width: 90%;
-}
-*/
-body {
-    background-color: #47a3da;
-}
-
-/*Columns*/
-
-.column-one {
-}
-
-.column-two {
-}
-
-.column-three {
-}
 
 
-/*Field Styles*/
-#first_name, #last_name, #email {
-    background-color: transparent;
-    border: 3px solid white;
-    display: block;
-    width: 90%;
-    margin: 1em auto;
-    padding: 0.5em;
-}
 
-/*For the stupid input coloring*/
-#first_name::-webkit-input-placeholder {
-   color: #10689a;
-}
-#first_name:-moz-placeholder { /* Firefox 18- */
-   color: #10689a; 
-}
-#first_name::-moz-placeholder {  /* Firefox 19+ */
-   color: #10689a; 
-}
-#first_name:-ms-input-placeholder {  
-   color: #10689a; 
-}
-#last_name::-webkit-input-placeholder {
-   color: #10689a;
-}
-#last_name:-moz-placeholder { /* Firefox 18- */
-   color: #10689a; 
-}
-#last_name::-moz-placeholder {  /* Firefox 19+ */
-   color: #10689a; 
-}
-#last_name:-ms-input-placeholder {  
-   color: #10689a; 
-}
-#email::-webkit-input-placeholder {
-   color: #10689a;
-}
-#email:-moz-placeholder { /* Firefox 18- */
-   color: #10689a; 
-}
-#email::-moz-placeholder {  /* Firefox 19+ */
-   color: #10689a; 
-}
-#email:-ms-input-placeholder {  
-   color: #10689a; 
-}
-.text-field::-webkit-input-placeholder {
-   color: #10689a;
-}
-.text-field:-moz-placeholder { /* Firefox 18- */
-   color: #10689a; 
-}
-.text-field::-moz-placeholder {  /* Firefox 19+ */
-   color: #10689a; 
-}
-.text-field:-ms-input-placeholder {  
-   color: #10689a; 
-}
-/*END stupid input coloring*/
 
-.drop-down {
-    color: white;
-    background-color: #47a3da;
-    border: 1px solid rgb(166, 166, 166);
-    display: block;
-    width: 90%;
-    margin: .5em auto;
-}
 
-.text-field {
-    background-color: transparent;
-    border: 3px solid white;
-    display: block;
-    width: 90%;
-    margin: 1em auto;
-    padding: 0.5em;
-}
 
-.text-block {
-    background-color: transparent;
-    border: 3px solid white;
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-}
 
-label {
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-}
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
