@@ -249,6 +249,28 @@ row.comment-section.panel>.panel-heading:before{
 
 /*Right Side END*/
 
+/*
+@media only screen and (min-width: 500px) {
+    .collapse {
+        display: block;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+     .collapse {
+        display: none;
+     }
+
+     .navbar-header {
+        display: block;
+     }
+}
+*/
+
 
 /* ==========================================================================
    Helper classes
