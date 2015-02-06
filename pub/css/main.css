@@ -118,6 +118,17 @@ h3 {
     font-weight: bold;
 }
 
+h4 {
+    color: #4183c4;
+    font-size: 2ex;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navigation-tabs a {
+    color: #666;
+}
+
 #container {
     width 80%;
 }
@@ -181,10 +192,19 @@ img.img-rounded {
 
 .panel-body {
     border-bottom: 1px solid #e5e5e5;
+    padding: 1ex 0 0 1ex;
 }
 
 .panel-body:last-child {
     border-bottom: none;
+}
+
+.repo-icon {
+    position: absolute;
+}
+
+.repo-info {
+    margin-left: 2.5ex;
 }
 
 /*Right Side END*/
