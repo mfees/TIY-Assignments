@@ -65,113 +65,117 @@
                         </section>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-8 col-sm-6">
-                    <div class="navigation-tabs">
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#" data-toggle="tab">Contributions</a></li>
-                            <li class=""><a href="#" data-toggle="tab">Repositories</a></li>
-                            <li class=""><a href="#" data-toggle="tab">Public Activity</a></li>
+                    <div class="col-lg-9 col-md-8 col-sm-6">
+                        <div role="tabpanel">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions</a></li>
+                            <li role="presentation" class=""><a href="#repositories" aria-controls="repositories" role="tab" data-toggle="tab">Repositories</a></li>
+                            <li role="presentation" class=""><a href="#public-activity" aria-controls="public-activity" role="tab" data-toggle="tab">Public Activity</a></li>
                         </ul>
-                    </div>
-                    <div class="main-panel panel panel-default">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Popular Repositories</h3>
+                        <div class="tab-content main-panel panel panel-default">
+                            <div role="tabpanel" class="tab-pane active" id="contributions">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">Popular Repositories</h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="repo-icon">
+                                                    <span class="octicon octicon-repo"></span>
+                                                </div>
+                                                <div class="repo-info">
+                                                    <h4><a href="#">TIY-Assignments</a></h4>
+                                                    <p>Assignments Yo!</p>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="repo-icon">
+                                                    <span class="octicon octicon-repo"></span>
+                                                </div>
+                                                <div class="repo-info">
+                                                    <h4><a href="#">TIY-Assignments</a></h4>
+                                                    <p>Assignments Yo!</p>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="repo-icon">
+                                                    <span class="octicon octicon-repo-forked"></span>
+                                                </div>
+                                                <div class="repo-info">
+                                                    <h4><a href="#">FEE--2015--Spring</a></h4>
+                                                    <p>Class projects for the Front-End...</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="panel-body">
-                                        <div class="repo-icon">
-                                            <span class="octicon octicon-repo"></span>
-                                        </div>
-                                        <div class="repo-info">
-                                            <h4><a href="#">TIY-Assignments</a></h4>
-                                            <p>Assignments Yo!</p>
+                                    <div class="col-lg-6">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">Repositories contributed to</h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="repo-icon">
+                                                    <span class="octicon octicon-repo-forked"></span>
+                                                </div>
+                                                <div class="repo-info">
+                                                    <h4><a href="#">FEE--2015--Spring</a></h4>
+                                                    <p>Class projects for the Front-End...</p>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="repo-icon">
+                                                    <span class="octicon octicon-repo"></span>
+                                                </div>
+                                                <div class="repo-info">
+                                                    <h4><a href="#">TIY-Assignments</a></h4>
+                                                    <p>Assignments Yo!</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="panel-body">
-                                        <div class="repo-icon">
-                                            <span class="octicon octicon-repo"></span>
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">Contributions</h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p>Panel content</p>
+                                            </div>
                                         </div>
-                                        <div class="repo-info">
-                                            <h4><a href="#">TIY-Assignments</a></h4>
-                                            <p>Assignments Yo!</p>
-                                        </div>
+                                    <div class="row">
+                                        <div class="col-sm-1">
+                                            <div class="thumbnail">
+                                                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                            </div><!-- /thumbnail -->
+                                        </div><!-- /col-sm-1 -->
+                                    <div class="comment-section col-sm-11">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <div class="navigation-tabs">
+                                                    <ul class="nav nav-tabs">
+                                                        <li class="active"><a href="#" data-toggle="tab">Write</a></li>
+                                                        <li class=""><a href="#" data-toggle="tab">Preview</a></li>
+                                                    </ul>
+                                                </div>
+        <!--                                            <strong>myusername</strong> <span class="text-muted">commented 5 days ago</span>-->
+                                            </div>
+                                            <div class="panel-body">
+                                                <textarea class="form-control" rows="6" placeholder="Leave a comment"></textarea>
+                                                <button class="btn btn-success" type="button">Comment</button>
+                                            </div><!-- /panel-body -->
+                                        </div><!-- /panel panel-default -->
+                                    </div><!-- /col-sm-5 -->
                                     </div>
-                                    <div class="panel-body">
-                                        <div class="repo-icon">
-                                            <span class="octicon octicon-repo-forked"></span>
-                                        </div>
-                                        <div class="repo-info">
-                                            <h4><a href="#">FEE--2015--Spring</a></h4>
-                                            <p>Class projects for the Front-End...</p>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Repositories contributed to</h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        <div class="repo-icon">
-                                            <span class="octicon octicon-repo-forked"></span>
-                                        </div>
-                                        <div class="repo-info">
-                                            <h4><a href="#">FEE--2015--Spring</a></h4>
-                                            <p>Class projects for the Front-End...</p>
-                                        </div>
-                                    </div>
-                                    <div class="panel-body">
-                                        <div class="repo-icon">
-                                            <span class="octicon octicon-repo"></span>
-                                        </div>
-                                        <div class="repo-info">
-                                            <h4><a href="#">TIY-Assignments</a></h4>
-                                            <p>Assignments Yo!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Contributions</h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        <p>Panel content</p>
-                                    </div>
-                                </div>
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <div class="thumbnail">
-                                        <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-                                    </div><!-- /thumbnail -->
-                                </div><!-- /col-sm-1 -->
-                            <div class="comment-section col-sm-11">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <div class="navigation-tabs">
-                                            <ul class="nav nav-tabs">
-                                                <li class="active"><a href="#" data-toggle="tab">Write</a></li>
-                                                <li class=""><a href="#" data-toggle="tab">Preview</a></li>
-                                            </ul>
-                                        </div>
-<!--                                            <strong>myusername</strong> <span class="text-muted">commented 5 days ago</span>-->
-                                    </div>
-                                    <div class="panel-body">
-                                        <textarea class="form-control" rows="6" placeholder="Leave a comment"></textarea>
-                                        <button class="btn btn-success" type="button">Comment</button>
-                                    </div><!-- /panel-body -->
-                                </div><!-- /panel panel-default -->
-                            </div><!-- /col-sm-5 -->
-                            </div>
+                            <div role="tabpanel" class="tab-pane" id="repositories">2</div>
+                            <div role="tabpanel" class="tab-pane" id="public-activity">3</div>  
+                        </div>    
                         </div>
                     </div>
-                </div> 
             </div>
-        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
