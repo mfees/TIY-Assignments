@@ -48,7 +48,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #eee;
-    margin: 2em 0;
+    margin: 1.5em 0;
     padding: 0;
 }
 
@@ -105,6 +105,8 @@ body {
 h1 {
     font-size: 4ex;
     font-weight: bold;
+    margin-top: 0.5ex;
+    margin-bottom: 0.2ex;
 }
 
 h2 {
@@ -205,6 +207,44 @@ img.img-rounded {
 
 .repo-info {
     margin-left: 2.5ex;
+}
+
+.thumbnail {
+    padding:0px;
+}
+
+row.comment-section.panel {
+	position:relative;
+}
+
+row.comment-section.panel>.panel-heading:after,.panel>.panel-heading:before{
+	position:absolute;
+	top:11px;left:-16px;
+	right:100%;
+	width:0;
+	height:0;
+	display:block;
+	content:" ";
+	border-color:transparent;
+	border-style:solid solid outset;
+	pointer-events:none;
+}
+
+row.comment-section.panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+
+row.comment-section.panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
+
+.btn-success {
+    float: right;
+    margin: 0.8em 0.8em 0.8em 0;
 }
 
 /*Right Side END*/
