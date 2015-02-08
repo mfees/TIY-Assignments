@@ -10,6 +10,8 @@ $(function() {
         $('.location').text(user.location);
         $('.email').text(user.email);
         $('.joined').text(user.created_at);
+        $('.sidebar-count').text(user.followers);
+        $('sidebar-count').text(user.following);
         
         console.log(data);
     });

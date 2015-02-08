@@ -170,6 +170,19 @@ img.img-rounded {
     text-transform: capitalize;
 }
 
+.sidebar-stat:hover {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+span.muted {
+    color: #999;
+}
+
+span.muted:hover {
+    color: #4183c4;
+}
+
 .sidebar-count {
     display: block;
     font-size: 28px;
