@@ -18,29 +18,27 @@ $(function() {
 });
 
 
-$(function() {
-    
-    $.getJSON( "https://api.github.com/users/mfees/repos", function (repoArray) {
-        $.each(repoArray, function (index, item) {
-        var repolist = $('.repos-' + index);
-
-        repolist.find('h4').append(item.name);
-        repolist.find('p').append(item.description);
-
-        console.log(repoArray);    
-        });
-    });
-});
-
-//$ (function() {
+//$(function() {
 //    
 //    $.getJSON("https://api.github.com/users/mfees/repos", function (repoArray) {
 //        $.each(repoArray, function (index, item) {
 //        var repolist = $('.repos-' + index);
+//
 //        repolist.find('h4').append(item.name);
 //        repolist.find('p').append(item.description);
-//        repolist.find('span').append(item.updated_at);
 //
+//        console.log(repoArray);    
 //        });
 //    });
 //});
+
+$ (function() {
+    
+    $.getJSON("https://api.github.com/users/mfees/repos", function (repoArray) {
+        $.each(repoArray, function (index, item) {
+        var repolist = $('.repos-' + index);
+        repolist.find('h4').append(item.name);
+        repolist.find('p').append(item.description);
+        });
+    });
+});
