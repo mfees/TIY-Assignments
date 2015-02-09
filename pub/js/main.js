@@ -20,7 +20,7 @@ $(function() {
 
 $(function() {
     
-    $.get("https://api.github.com/users/mfees/repos", function (repoArray) {
+    $.getJSON( "https://api.github.com/users/mfees/repos", function (repoArray) {
         $.each(repoArray, function (index, item) {
         var repolist = $('.repos-' + index);
 
@@ -31,3 +31,16 @@ $(function() {
         });
     });
 });
+
+//$ (function() {
+//    
+//    $.getJSON("https://api.github.com/users/mfees/repos", function (repoArray) {
+//        $.each(repoArray, function (index, item) {
+//        var repolist = $('.repos-' + index);
+//        repolist.find('h4').append(item.name);
+//        repolist.find('p').append(item.description);
+//        repolist.find('span').append(item.updated_at);
+//
+//        });
+//    });
+//});
