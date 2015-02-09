@@ -14,7 +14,7 @@ $(function() {
         $('sidebar-count').text(user.following);
         
         console.log(data);
-    });
+    }); 
 });
 
 
