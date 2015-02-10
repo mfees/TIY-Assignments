@@ -98,8 +98,8 @@ textarea {
    ========================================================================== */
 
 h1 {
-    font-size: 30ex;
-    font-family: sans-serif;
+    font-size: 25ex;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     color: #fff;
     text-align: center; 
@@ -110,10 +110,22 @@ h1 {
     text-align: center;
 }
 
+.clock-button {
+    margin-right: 1ex;
+}
+
 .clock-button, .hex-button {
     background-color: #fff;
-    padding: 1ex 28ex;
+    padding: 1ex 25ex;
     display: inline-block
+}
+
+.clock-button:hover, .hex-button:hover {
+    background-color: #ccc;
+}
+
+.clock-button:active, .hex-button:active {
+    background-color: #ccc;
 }
 
 
