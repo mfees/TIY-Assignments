@@ -103,9 +103,18 @@ h1 {
     font-weight: normal;
     color: #fff;
     text-align: center; 
+    margin-bottom: 0;
 }
 
+.buttons {
+    text-align: center;
+}
 
+.clock-button, .hex-button {
+    background-color: #fff;
+    padding: 1ex 28ex;
+    display: inline-block
+}
 
 
 
