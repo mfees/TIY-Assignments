@@ -110,20 +110,22 @@ td {
     position: relative;
 }
 
+.a-hcol {
+    background: none;
+}
+
+.num-row{
+    background: none;
+}
+
 tr {
     background-color: #4d4d4d;
 }
 
-tbody :nth-child(even) td:nth-child(even), 
-tbody :nth-child(odd) td:nth-child(odd) {
+tbody :nth-child(even) td:nth-child(odd), 
+tbody :nth-child(odd) td:nth-child(even) {
 background-color: #8cdcda;
 }
-
-
-.file-row {
-    background-color: transparent;
-}
-
 
 .button-group {
     text-align: center;
