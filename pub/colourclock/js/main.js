@@ -16,8 +16,9 @@ function countUp() {
     
     document.body.style.background = color;
     
-    document.getElementById("date").innerHTML =
-    color;
+//    document.getElementById("date").innerHTML =
+//    color;
+    document.getElementById("date").innerHTML = h + ":" + m + ":" + s;
     
     setInterval(countUp, 1000);
 }

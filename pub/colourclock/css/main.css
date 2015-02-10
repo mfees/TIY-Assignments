@@ -98,11 +98,11 @@ textarea {
    ========================================================================== */
 
 h1 {
+    font-size: 30ex;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     color: #fff;
-    text-align: center;
-    margin-top: 20ex; 
+    text-align: center; 
 }
 
 
