@@ -98,18 +98,128 @@ textarea {
    ========================================================================== */
 
 
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+td {
+    border: 2px solid #fff;
+    width: 10%;
+    padding-bottom: 12.5%;   
+    position: relative;
+}
+
+tr {
+    background-color: #4d4d4d;
+}
+
+tbody :nth-child(even) td:nth-child(even), 
+tbody :nth-child(odd) td:nth-child(odd) {
+background-color: #8cdcda;
+}
+
+.button-group {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.fa {
+    color: #4d4d4d;
+    background-color: #fff; 
+    border: 1px solid #cecece;
+    padding: .5% .8%;
+    margin-right: 0.2ex;
+}
+
+.fa:hover{
+    color: #fff;
+    background-color: #f16a70;
+}
+
+.piece::before {
+    position: absolute;
+    font-size: 5vw;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+.piece:hover {
+    color: #f16a70;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+/****Black Pieces****/
+
+/*rooks*/
+td .black.rook:before {
+    content: "\265C";
+}
+
+/*knights*/
+td .black.knight:before {
+    content: "\265E"; 
+}
+
+/*bishops*/
+td .black.bishop:before {
+    content: "\265D";
+}
+
+/*queen*/
+td .black.queen:before {
+    content: "\265B";
+}
+
+/*king*/
+td .black.king:before {
+    content: "\265A";
+}
+
+/*pawns*/
+td .black.pawn:before {
+    content: "\265F";
+}
 
 
+/****White Pieces****/
 
+/*rooks*/
+td .white.rook:before {
+    content: "\265C";
+}
 
+/*knights*/
+td .white.knight:before {
+    content: "\265E"; 
+}
 
+/*bishops*/
+td .white.bishop:before {
+    content: "\265D";
+}
 
+/*queen*/
+td .white.queen:before {
+    content: "\265B";
+}
 
+/*king*/
+td .white.king:before {
+    content: "\265A";
+}
 
-
-
-
-
+/*pawns*/
+td .white.pawn:before {
+    content: "\265F";
+}
 
 
 
