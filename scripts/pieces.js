@@ -23,6 +23,9 @@ Piece.prototype = {
     abbrev: function () {
         return this.name.substring(0, 1);
     },
+    toSting: function () {
+        return.toString
+    },
 };
 
 it('should have a function called piece', function (){
@@ -40,7 +43,6 @@ it('should define what color is', function () {
 //it('should', function () {
 //    
 //});
-
 
 
 //function pieceMaker {
