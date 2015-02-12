@@ -97,36 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-h1 {
-    font-size: 25ex;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    color: #fff;
-    text-align: center; 
-    margin-bottom: 0;
-}
 
-.buttons {
-    text-align: center;
-}
 
-.clock-button {
-    margin-right: 1ex;
-}
 
-.clock-button, .hex-button {
-    background-color: #fff;
-    padding: 1ex 25ex;
-    display: inline-block
-}
-
-.clock-button:hover, .hex-button:hover {
-    background-color: #ccc;
-}
-
-.clock-button:active, .hex-button:active {
-    background-color: #ccc;
-}
 
 
 
