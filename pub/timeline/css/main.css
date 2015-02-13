@@ -119,16 +119,21 @@ p {
 }
 
 .block {
-    background-color: #3594cb;
     border-radius: 0.5em;
     margin-bottom: 2em;
     padding: 1em;
     position: relative;
 }
 
-.block:nth-child(even) {
+
+.content-area :nth-child(even) section {
+    background-color: #3594cb;
+}
+
+.content-area :nth-child(odd) section {
     background-color: #6cbfee;
 }
+
 
 .block:before {
     content: '';
@@ -136,13 +141,17 @@ p {
 	height: 0; 
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-bottom: 10px solid #3594cb;
+	border-bottom: 10px solid #6cbfee;
     position: absolute;
     top: -10px;
 }
 
-.block:nth-child(even):before {
-    border-bottom: 10px solid #6cbfee;
+.aside-position:nth-child(even) section:before {
+    color: #3594cb;
+}
+
+.aside-position:nth-child(odd) section:before {
+    color: #6cbfee;
 }
 
 ul {
@@ -169,12 +178,13 @@ big {
     list-style: none;
 }
 
-.fa {
+.time-block i {
     color: white;
     background-color: #46a4da;
     border: 6px solid #afdcf8;
-    border-radius: 100%;
-    padding: 0.5em;
+    border-radius: 50%;
+    padding: 0.3em;
+    float: right;
 }
 
 
