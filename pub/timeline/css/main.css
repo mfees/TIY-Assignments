@@ -98,6 +98,7 @@ textarea {
    ========================================================================== */
 
 .title {
+    margin; 0;
     color: white;
     border-bottom: 1px solid white;
 }
@@ -108,26 +109,35 @@ p {
 
 .main-container {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 3em auto 0;
 }
 
 .block {
-    background-color: blue;
+    background-color: darkblue;
     border-radius: 0.5em;
+    margin-bottom: 9em;
+    padding: 1em;
+    position: relative;
 }
 
+.block:nth-child(odd) {
+    background-color: blue;
+}
 
+.block:before {
+    content: '';
+    width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid darkblue;
+    position: absolute;
+    top: -10px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.block:nth-child(odd):before {
+    border-bottom: 10px solid blue;
+}
 
 
 /* ==========================================================================
