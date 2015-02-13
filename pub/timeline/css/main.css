@@ -98,13 +98,16 @@ textarea {
    ========================================================================== */
 
 .title {
-    margin; 0;
     color: white;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
     border-bottom: 1px solid white;
+    padding: 0 0 1ex 0;
+    margin: 0 0 1ex 0;
 }
 
 p {
     color: white;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
 .main-container {
@@ -113,15 +116,15 @@ p {
 }
 
 .block {
-    background-color: darkblue;
+    background-color: #3594cb;
     border-radius: 0.5em;
     margin-bottom: 9em;
     padding: 1em;
     position: relative;
 }
 
-.block:nth-child(odd) {
-    background-color: blue;
+.block:nth-child(even) {
+    background-color: #6cbfee;
 }
 
 .block:before {
@@ -130,13 +133,39 @@ p {
 	height: 0; 
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-bottom: 10px solid darkblue;
+	border-bottom: 10px solid #3594cb;
     position: absolute;
     top: -10px;
 }
 
-.block:nth-child(odd):before {
-    border-bottom: 10px solid blue;
+.block:nth-child(even):before {
+    border-bottom: 10px solid #6cbfee;
+}
+
+ul {
+    padding: 0;
+}
+
+.time-block {
+    margin-bottom: 2em;
+    display: block;
+}
+
+big {
+    color: #3594cb;
+}
+
+.aside-position {
+    margin-bottom: 2em;
+    list-style: none;
+}
+
+.fa {
+    color: white;
+    background-color: #46a4da;
+    border: 6px solid #afdcf8;
+    border-radius: 100%;
+    padding: 0.5em;
 }
 
 
