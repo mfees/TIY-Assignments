@@ -97,6 +97,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.title {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+p {
+    color: white;
+}
+
 .main-container {
     max-width: 80%;
     margin: 0 auto;
@@ -104,6 +113,7 @@ textarea {
 
 .block {
     background-color: blue;
+    border-radius: 0.5em;
 }
 
 
