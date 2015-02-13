@@ -97,7 +97,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.main-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
 
+.block {
+    background-color: blue;
+}
 
 
 
