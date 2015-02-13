@@ -100,7 +100,9 @@ textarea {
 .title {
     color: white;
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    border-bottom: 1px solid white;
+    font-size: 3.3ex;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
     padding: 0 0 1ex 0;
     margin: 0 0 1ex 0;
 }
@@ -108,6 +110,7 @@ textarea {
 p {
     color: white;
     font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 2ex;
 }
 
 .main-container {
@@ -118,7 +121,7 @@ p {
 .block {
     background-color: #3594cb;
     border-radius: 0.5em;
-    margin-bottom: 9em;
+    margin-bottom: 2em;
     padding: 1em;
     position: relative;
 }
@@ -151,8 +154,14 @@ ul {
     display: block;
 }
 
+span {
+    color: #bdd0db;
+    font-size: 2ex;
+}
+
 big {
-    color: #3594cb;
+    color: #6cbfee;
+    font-size: 3.2ex;
 }
 
 .aside-position {
