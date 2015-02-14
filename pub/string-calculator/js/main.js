@@ -23,13 +23,21 @@ function plus(a, b) {
         "seventeen": 17,
         "eighteen": 18,
         "nineteen": 19,
-        "twenty": 20
+        "twenty": 20,
+        "thirty": 30,
+        "forthy": 40,
+        "fifty": 50,
+        "sixty": 60,
+        "seventy": 70,
+        "eighty": 80,
+        "ninety": 90
     };
     return number[a] + number[b];
 };
 
 console.log(plus("one", "two"));
 console.log(plus("five", "six"));
+console.log(plus("ninety", "four"));
 
 
 it('should have a plus function', function () {
@@ -37,6 +45,13 @@ it('should have a plus function', function () {
     assert.equal(typeof plus, "function");
 });
 
+it('should add "one" and "twenty"', function () {
+    assert.equal(plus("one", "twenty"), 21);
+});
+
+it('should add "ninety" and "four"', function () {
+    assert.equal(plus("ninety", "four"), 94);
+});
 //var number = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine",];
 //var answer;
 //
