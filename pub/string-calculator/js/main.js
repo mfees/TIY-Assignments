@@ -14,8 +14,10 @@ function plus(a, b) {
         "eight": 8,
         "nine": 9
     };
-    return number[a] + [b];
+    return number[a] + number[b];
 };
+
+console.log(plus("one", "two"));
 
 
 it('should have a plus function', function () {
@@ -23,15 +25,12 @@ it('should have a plus function', function () {
     assert.equal(typeof plus, "function");
 });
 
-var number = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine",];
-var answer;
-
-for(var i = 0; i < number.length; i++); {
-    for(var ii = 0; i < number.lenght; ii++); {
-        
-    answer = i + ii;    
-    };
-};
-//it('should plus values one through nine and produce an int number', function () {
-//    assert.equal number["three"] + ["four"] = 7;
-//});
+//var number = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine",];
+//var answer;
+//
+//for(var i = 0; i < number.length; i++); {
+//    for(var ii = 0; i < number.lenght; ii++); {
+//        
+//    answer = i + ii;    
+//    };
+//};
