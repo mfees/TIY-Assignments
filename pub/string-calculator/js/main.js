@@ -4,6 +4,7 @@ console.log(Date());
 
 function plus(a, b) {
     var number= {
+        "zero": 0,
         "one": 1,
         "two": 2,
         "three": 3,
@@ -30,30 +31,55 @@ function plus(a, b) {
         "sixty": 60,
         "seventy": 70,
         "eighty": 80,
-        "ninety": 90,
-        "one hundred": 100
+        "ninety": 90
     };
-    return number[a] + number[b];
+    var aVal = 0, bVal = 0;
+    var aArr = a.split(" ");
+    var bArr = b.split(" ");
+    
+//    console.log("In plus: ");
+//    console.log(a);
+//    console.log(b);
+//    console.log(aArr[0]);
+//    console.log(aArr[1]);
+    
+    if(typeof aArr[1] == "undefined")
+        aVal = number[a];    
+    else if(aArr[1] == "hundred")
+        aVal = number[aArr[0]] * 100;
+    else aVal = plus(aArr[0],aArr[1]);
+    
+    if(typeof bArr[1] == "undefined")
+        bVal = number[b];    
+    else if(bArr[1] == "hundred")
+        bVal = number[bArr[0]] * 100;
+    else bVal = plus(bArr[0],bArr[1]);
+    
+    return aVal + bVal;
 };
 
 console.log(plus("one", "two"));
 console.log(plus("five", "six"));
 console.log(plus("ninety", "four"));
-console.log(plus("one hundred", "fifteen"));
+console.log(plus("twenty three", "thirty nine"));
+console.log(plus("two hundred", "ten"));
+console.log(plus("two hundred", "zero"));
+console.log(plus("two hundred", "five hundred"));
 
-it('should have a plus function', function () {
-    assert(plus);
-    assert.equal(typeof plus, "function");
-});
 
-it('should add "one" and "twenty"', function () {
-    assert.equal(plus("one", "twenty"), 21);
-});
-
-it('should add "ninety" and "four"', function () {
-    assert.equal(plus("ninety", "four"), 94);
-});
-
-it('should add "one hundred" and "fifteen"', function () {
-    assert.equal(plus("one hundred", "fifteen"), 115);
-});
+//it('should have a plus function', function () {
+//    assert(plus);
+//    assert.equal(typeof plus, "function");
+//});
+//
+//it('should add "one" and "twenty"', function () {
+//    assert.equal(plus("one", "twenty"), 21);
+//});
+//
+//it('should add "ninety" and "four"', function () {
+//    assert.equal(plus("ninety", "four"), 94);
+//});
+//
+//it('should add "one hundred" and "one"', function () {
+//    assert.equal(plus("two hundred", "one"), 201);
+//});
