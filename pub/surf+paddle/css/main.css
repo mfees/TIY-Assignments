@@ -97,41 +97,100 @@ textarea {
    Author's custom styles
    ========================================================================== */
 p {
+    color: #5e686f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8ex;
+    line-height: 3ex;
 }
 
-h1 {
+.banner-title {
+    color: #fff;
+    font-family: "Myriad Pro" sans-serif;
+    font-size: 12ex;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1.3em;
 }
 
 .headline {
-    font-size: 5ex;
+    font-size: 6ex;
     font-family: "Oswald", sans-serif;
     color: #083452;
     text-transform: uppercase;
 }
 
-h3 {
-}
-
-h4 {
-}
-
-h5 {
-    color: #083452;
-    font-size: 2ex;
+.callout-quote {
+    font-family: "Open Sans", sans-serif;
+    font-size: 3ex;
     text-transform: uppercase;
-    bottom: 0.5em;
-    left: 2em;
+    color: #106db3;
+    border-left: 1px solid lightgray;
+    padding-left: 1ex;
+}
+
+.sidebar-heading {
+    color: #106db3;
+    font-size: 2ex;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.post-title {
+    color: #083452;
+    font-family: "Oswald", sans-serif;
+    font-size: 4ex;
+    text-transform: uppercase;
+    bottom: 0.1em;
+    left: 1em;
     position: absolute;
 }
 
+.post-info {
+    text-align: center;
+}
+
 .main-container {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
 .banner-area {
     background-image: url(http://lorempixel.com/1440/960);
     background-size: cover;
+    height: 25em;
+}
+
+.header-nav {
+    float: right;
+}
+
+.navigation {
+    display: block;
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navigation p {
+    color: #fff;
+    float: left;
+}
+
+.header-nav a {
+    color: #fff;
+}
+
+.comment-button, .read-button, .share-button {
+    display: inline;
+}
+
+icon {
+    display: inline;
+}
+
+.button {
+    display: inline;
 }
 
 .photo-group {
@@ -146,6 +205,26 @@ h5 {
     list-style: none;
     display: block;
     position: relative;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay:before {
+    position: absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #083452;
+    opacity: .5;
+}
+
+.overlay:hover:before  {
+    transition: opacity 0.3s ease;
+    opacity: 0;
 }
 
 footer {
