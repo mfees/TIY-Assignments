@@ -8,6 +8,7 @@ console.log(Date());
  */
 
 function toEnglish(a) {
+    var value = "";
     var number= {
         0: "zero",
         1: "one",
@@ -40,16 +41,17 @@ function toEnglish(a) {
     };
     
 //    console.log("In toEnglish: " + a);
-    if (a < 20)
-        return number[a];
-    
-    if (Math.floor(a / 10) * 10 == a)
-        return number[a];
-    
-    return number[Math.floor(a/10)*10] + " " + number[a % 10];
+    // if a is in my number list, simply return string name
+    if (a < 20 || Math.floor(a / 10) * 10 == a)
+        value = number[a];
+    // otherwise I need to build the name (i.e. 23 -> twenty three)
+    else value = number[Math.floor(a/10)*10] + " " + number[a % 10];
+
+    return value;
 }; //END toEnglish
   
 
+//Test Asserts for toEnglish
 it('should make 4 equal "four"', function () {
     assert.equal(toEnglish(4), "four");
 });
@@ -90,6 +92,7 @@ function toCheck(n) {
 }; // END toCheck
 
 
+//Test Asserts for toCheck
 it('should equal "one & 23/100s dollars"', function () {
     assert.equal(toCheck(1.23), "one & 23/100s dollars");
 });
