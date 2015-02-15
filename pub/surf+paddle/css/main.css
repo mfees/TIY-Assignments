@@ -266,6 +266,8 @@ figcaption {
 
 .photo-group {
     padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .pop-posts .headline {
