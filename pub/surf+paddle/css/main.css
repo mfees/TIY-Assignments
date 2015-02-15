@@ -305,16 +305,24 @@ figcaption {
 .footer-container {
     width: 70%;
     margin: 0 auto;
+    padding: 3ex 0;
+    overflow: hidden;
 }
 
 .footer-left {
+    color: #a3b3bf;
     float: left;
     display: inline;
 }
 
-.footer-nav {
+.footer-nav a {
+    color: #a3b3bf;
     float: right;
     display: inline;
+}
+
+.footer-left p {
+    color: #a3b3bf;
 }
 
 footer {
