@@ -102,7 +102,11 @@ p {
 h1 {
 }
 
-h2 {
+.headline {
+    font-size: 5ex;
+    font-family: "Oswald", sans-serif;
+    color: #083452;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -112,6 +116,12 @@ h4 {
 }
 
 h5 {
+    color: #083452;
+    font-size: 2ex;
+    text-transform: uppercase;
+    bottom: 0.5em;
+    left: 2em;
+    position: absolute;
 }
 
 .main-container {
@@ -128,9 +138,14 @@ h5 {
     padding: 0;
 }
 
+.pop-posts .headline {
+    text-align: center;
+}
+
 .individual-post {
     list-style: none;
     display: block;
+    position: relative;
 }
 
 footer {
