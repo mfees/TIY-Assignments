@@ -51,30 +51,7 @@ console.log(toEnglish(12));
  * @param Number n representing a dollar value
  * @returns String of English words for `n`
  */
-function toCheck(n){
-    var number= {
-        0: "zero",
-        1: "one",
-        2: "two",
-        3: "three",
-        4: "four",
-        5: "five",
-        6: "six",
-        7: "seven",
-        8: "eight",
-        9: "nine",
-        10: "ten",
-        11: "eleven",
-        12: "twelve",
-        13: "thirteen",
-        14: "fourteen",
-        15: "fifteen",
-        16: "sixteen",
-        17: "seventeen",
-        18: "eighteen",
-        19: "ninteen"
-    };
-    
+function toCheck(n) {  
     if(n < 10);
         return number[n] + " &" + "/100s dollars";
 }; // END toCheck
