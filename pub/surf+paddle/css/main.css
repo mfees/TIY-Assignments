@@ -302,8 +302,24 @@ figcaption {
     opacity: 0;
 }
 
+.footer-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-left {
+    float: left;
+    display: inline;
+}
+
+.footer-nav {
+    float: right;
+    display: inline;
+}
+
 footer {
     background-color: #083452; 
+    overflow: hidden;
 }
 
 
