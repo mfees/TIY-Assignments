@@ -96,21 +96,46 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+p {
+}
 
+h1 {
+}
 
+h2 {
+}
 
+h3 {
+}
 
+h4 {
+}
 
+h5 {
+}
 
+.main-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
 
+.banner-area {
+    background-image: url(http://lorempixel.com/1440/960);
+    background-size: cover;
+}
 
+.photo-group {
+    padding: 0;
+}
 
+.individual-post {
+    list-style: none;
+    display: block;
+}
 
-
-
-
-
-
+footer {
+    background-color: #083452; 
+}
 
 
 /* ==========================================================================
