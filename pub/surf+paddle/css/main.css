@@ -100,7 +100,7 @@ p {
     color: #5e686f;
     font-family: "Open Sans", sans-serif;
     font-size: 1.8ex;
-    line-height: 3ex;
+    line-height: 3.5ex;
 }
 
 .banner-title {
@@ -110,7 +110,7 @@ p {
     font-weight: lighter;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 1.3em;
+    margin-top: 1em;
 }
 
 .headline {
@@ -126,6 +126,7 @@ p {
     text-transform: uppercase;
     color: #106db3;
     border-left: 1px solid lightgray;
+    margin-bottom: 2ex;
     padding-left: 1ex;
 }
 
@@ -148,11 +149,14 @@ p {
 
 .post-info {
     text-align: center;
+    margin-top: 3ex;
+    margin-bottom: 5ex;
+ 
 }
 
 .main-container {
     max-width: 70%;
-    margin: 0 auto;
+    margin: 3ex auto 0 auto;
 }
 
 .banner-area {
@@ -162,6 +166,9 @@ p {
 }
 
 .header-nav {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
     float: right;
 }
 
@@ -170,6 +177,7 @@ p {
     overflow: hidden;
     width: 70%;
     margin: 0 auto;
+    padding-top: 3ex;
 }
 
 .navigation p {
@@ -181,16 +189,79 @@ p {
     color: #fff;
 }
 
+.left-body p {
+    margin: 4ex 0;
+}
+
+.left-heading img {
+    width: 3%;
+}
+
+.left-heading p {
+    color: #106db3;
+    padding-right: 2ex;
+    padding-left: 1ex;
+    display: inline;
+}
+
+time {
+    color: #b4c1cb;
+}
+
 .comment-button, .read-button, .share-button {
     display: inline;
 }
 
-icon {
+i {
     display: inline;
 }
 
+.fa {
+    color: #fff;
+}
+
 .button {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7ex;
+    line-height: 0;
+    background: #a3b3bf;
+    padding: 1ex 2ex;
+    margin-left: -4px;
     display: inline;
+}
+
+.button-group .fa {
+    background: #5e686f;
+    padding: 1ex;
+}
+
+.left {
+    margin: 0 auto;
+}
+
+.post-info p {
+    color: #106db3;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2ex;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.post-nav a {
+    color: #b4c1cb;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    float: right;
+}
+
+.sidebar-text {
+    margin-top: 6ex;
 }
 
 .photo-group {
@@ -207,19 +278,23 @@ icon {
     position: relative;
 }
 
+.individual-post img {
+    width: 100;
+}
+
 .overlay {
     position: relative;
 }
 
 .overlay:before {
-    position: absolute;
-    content:"";
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: #083452;
     opacity: .5;
+    position: absolute;
 }
 
 .overlay:hover:before  {
