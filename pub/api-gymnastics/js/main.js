@@ -18,10 +18,10 @@ function answer(){
       'total': pEvents.length  // How many total events of type `PushEvent` are there?
 //      'perDay': ...  // On average, how many`PushEvent` entries per day?
     },
-//    'other': {
-//      'total': ...,  // How many _other_ events are in the data?
+    'other': {
+      'total': otherEvents,  // How many _other_ events are in the data?
 //      'perDay': ...  // How many per day, on average?
-//    }
+    }
     };
 } // END answer
 
@@ -30,7 +30,7 @@ console.log(answer);
 console.log(events.length);
 console.log(pEvents.length);
 console.log(events.length - pEvents.length);
-console.log(otherEvents.length);
+console.log(otherEvents);
 
 
 it('should show the length of the array "events"', function () {
@@ -42,7 +42,7 @@ it('should show the length of the number of "pushevents"', function () {
 });
 
 it('should return the number of events that are not push events', function () {
-    assert.equal(otherEvents.length, 20);
+    assert.equal(otherEvents, 20);
 });
     
 
