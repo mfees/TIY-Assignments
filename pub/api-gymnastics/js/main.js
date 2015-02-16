@@ -1,6 +1,6 @@
 var assert = require('assert'),
     _ = require('lodash'),
-    events = require('../../apis/github/users/mfees/events.json'); 
+    events = require('../../../apis/github/users/mfees/events.json'); 
 
 console.log(Date());
 
@@ -19,5 +19,6 @@ function answer(){
 } // END answer
 
 console.log(answer);
+console.log(events.length);
 
 
